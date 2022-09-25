@@ -66,15 +66,10 @@ async function add(board) {
 
 async function update(board) {
     try {
-        var id = ObjectId(board._id)
-        delete board._id
-        // console.log('id', id)
+        const boardToSave = { ...board, _id: ObjectId(board._id) }
         const collection = await dbService.getCollection('board')
-        await collection.findOneAndUpdate({ _id: id }, { $set: { ...board } }, { upsert: true, returnNewDocument: true })
-        const updatedBoard = await getById(id)
-        // board._id = ObjectId(id)
-        console.log('board from service after update', updatedBoard)
-        return updatedBoard
+        await collection.updateOne({ _id: boardToSave._id }, { $set: boardToSave })
+        return boardToSave
     } catch (err) {
         throw err
     }
