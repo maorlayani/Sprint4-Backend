@@ -56,6 +56,7 @@ async function remove(boardId) {
 async function add(board) {
     try {
         const collection = await dbService.getCollection('board')
+        board.labels = labelsData
         const addedBoard = await collection.insertOne(board)
         // console.log('FROM SERVER SERVICES', addedBoard.ops)
         return addedBoard.ops[0]
