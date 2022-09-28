@@ -31,6 +31,16 @@ function setupSocketAPI(http) {
             // gIo.to(socket.myTopic).emit('chat-add-msg', msg)
             gIo.emit('chat-add-msg', msg)
         })
+        socket.on('dnd-executed', board => {
+            // logger.info(`New chat msg from socket [id: ${socket.id}], emitting to topic ${socket.myTopic}`)
+            gIo.emit('dnd', board)
+        })
+        // socket.on('task-update', task => {
+        //     // logger.info(`New chat msg from socket [id: ${socket.id}], emitting to topic ${socket.myTopic}`)
+        //     gIo.emit('task-update', task)
+        //     // broadcast({ type: 'task-update', data: task, userId: loggedinUser._id })
+
+        // })
         socket.on('user-watch', userId => {
             logger.info(`user-watch from socket [id: ${socket.id}], on user ${userId}`)
             socket.join('watching:' + userId)
@@ -70,7 +80,9 @@ async function emitToUser({ type, data, userId }) {
 // If possible, send to all sockets BUT not the current socket 
 // Optionally, broadcast to a room / to all
 async function broadcast({ type, data, room = null, userId }) {
+    console.log('before');
     userId = userId?.toString()
+    console.log('after');
 
     logger.info(`Broadcasting event: ${type}`)
     const excludedSocket = await _getUserSocket(userId)
