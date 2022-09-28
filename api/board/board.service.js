@@ -2,6 +2,7 @@
 const dbService = require('../../services/db.service')
 // var gBoard = require('../../data/Board.json')
 const ObjectId = require('mongodb').ObjectId
+const userService = require('../user/user.service')
 
 module.exports = {
     query,

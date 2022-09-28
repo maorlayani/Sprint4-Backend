@@ -1,0 +1,51 @@
+27.9.2022, 16:11:13 - DEBUG - auth.service - signup with username: dandan, fullname: dan choen 
+27.9.2022, 16:11:13 - ERROR - Failed to signup Error: data and salt arguments required 
+27.9.2022, 16:12:48 - DEBUG - {"fullname":"dan choen","username":"dandan","password":"123"} 
+27.9.2022, 16:12:48 - DEBUG - auth.service - signup with username: dandan, fullname: dan choen 
+27.9.2022, 16:12:48 - ERROR - Failed to signup Error: data and salt arguments required 
+27.9.2022, 16:15:20 - DEBUG - {"fullname":"dan choen","username":"dandan","password":"123"} 
+27.9.2022, 16:15:20 - DEBUG - auth.service - signup with username: dandan, fullname: dan choen 
+27.9.2022, 16:15:20 - ERROR - Failed to signup Error: data and salt arguments required 
+27.9.2022, 16:16:28 - DEBUG - {"fullname":"dan choen","username":"dandan","password":"123"} 
+27.9.2022, 16:16:28 - DEBUG - auth.service - signup with username: dandan, fullname: dan choen 
+27.9.2022, 16:16:28 - ERROR - Failed to signup Error: data and salt arguments required 
+27.9.2022, 16:17:13 - DEBUG - {"fullname":"dan choen","username":"dandan","password":"123"} 
+27.9.2022, 16:17:13 - DEBUG - auth.service - signup with username: dandan, fullname: dan choen 
+27.9.2022, 16:17:13 - ERROR - Failed to signup Error: data and salt arguments required 
+27.9.2022, 16:17:48 - DEBUG - {"fullname":"dan choen","username":"dandan","password":"123"} 
+27.9.2022, 16:17:48 - DEBUG - auth.service - signup with username: dandan, fullname: dan choen 
+27.9.2022, 16:17:48 - ERROR - Failed to signup Error: data and salt arguments required 
+27.9.2022, 16:21:45 - DEBUG - {"fullname":"dan choen","username":"dandan","password":"123"} 
+27.9.2022, 16:21:45 - DEBUG - auth.service - signup with username: dandan, fullname: dan choen 
+27.9.2022, 16:21:45 - ERROR - Failed to signup Error: data and salt arguments required 
+27.9.2022, 16:22:32 - DEBUG - {"fullname":"dan choen","username":"dandan","password":"123"} 
+27.9.2022, 16:22:32 - DEBUG - auth.service - signup with username: dandan, fullname: dan choen 
+27.9.2022, 16:22:33 - ERROR - Failed to signup Error: data and salt arguments required 
+27.9.2022, 16:23:01 - DEBUG - {"fullname":"dan choen","username":"dandan","password":"123"} 
+27.9.2022, 16:23:01 - DEBUG - auth.service - signup with username: dandan, fullname: dan choen 
+27.9.2022, 16:23:01 - ERROR - Failed to signup Error: data and salt arguments required 
+27.9.2022, 16:23:28 - DEBUG - {"fullname":"dan choen","username":"dandan","password":"123"} 
+27.9.2022, 16:23:28 - DEBUG - auth.service - signup with username: dandan, fullname: dan choen 
+27.9.2022, 16:23:29 - ERROR - Failed to signup Error: data and salt arguments required 
+27.9.2022, 16:24:56 - DEBUG - {"fullname":"dan choen","username":"dandan","password":"123"} 
+27.9.2022, 16:24:56 - DEBUG - auth.service - signup with username: dandan, fullname: dan choen 
+27.9.2022, 16:24:56 - ERROR - Failed to signup Error: data and salt arguments required 
+27.9.2022, 16:26:34 - DEBUG - {"fullname":"dan choen","username":"dandan","password":"123"} 
+27.9.2022, 16:26:34 - DEBUG - auth.service - signup with username: dandan, fullname: dan choen 
+27.9.2022, 16:26:34 - DEBUG - auth.route - new account created: {"username":"dandan","password":"$2b$10$eHzua2vHX/s/EHC3DvBEGe14CmxWTGBGlyHAcT0j877A.O2vnZ7xq","fullname":"dan choen","_id":"6332fa0aaf537060c8de096f"} 
+27.9.2022, 16:26:34 - DEBUG - auth.service - login with username: dandan 
+27.9.2022, 16:26:34 - INFO - User signup: | {"_id":"6332fa0aaf537060c8de096f","username":"dandan","fullname":"dan choen"} 
+27.9.2022, 16:29:11 - DEBUG - {"fullname":"Maor Layani","username":"MaorL","password":"112233"} 
+27.9.2022, 16:29:11 - DEBUG - auth.service - signup with username: MaorL, fullname: Maor Layani 
+27.9.2022, 16:29:11 - DEBUG - auth.route - new account created: {"username":"MaorL","password":"$2b$10$4MEtTte0NMEbKIYsh8gHlOP7xlG42N/.zSP1p8KY8fmNJ/me25NrO","fullname":"Maor Layani","_id":"6332faa7922b2776bc37a642"} 
+27.9.2022, 16:29:11 - DEBUG - auth.service - login with username: MaorL 
+27.9.2022, 16:29:11 - INFO - User signup: | {"_id":"6332faa7922b2776bc37a642","username":"MaorL","fullname":"Maor Layani"} 
+27.9.2022, 16:31:25 - DEBUG - auth.service - login with username: MaorL 
+27.9.2022, 16:31:25 - INFO - User login:  | {"_id":"6332faa7922b2776bc37a642","username":"MaorL","fullname":"Maor Layani","imgUrl":"https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"} 
+27.9.2022, 20:05:27 - DEBUG - auth.service - login with username: MaorL 
+27.9.2022, 20:05:27 - INFO - User login:  | {"_id":"6332faa7922b2776bc37a642","username":"MaorL","fullname":"Maor Layani","imgUrl":"https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"} 
+27.9.2022, 20:07:29 - DEBUG - auth.service - login with username: MaorL 
+27.9.2022, 20:07:29 - INFO - User login:  | {"_id":"6332faa7922b2776bc37a642","username":"MaorL","fullname":"Maor Layani","imgUrl":"https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"} 
+27.9.2022, 21:35:37 - DEBUG - auth.service - login with username: MaorL 
+27.9.2022, 21:35:37 - INFO - User login:  | {"_id":"6332faa7922b2776bc37a642","username":"MaorL","fullname":"Maor Layani","imgUrl":"https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"} 
+28.9.2022, 10:51:33 - INFO - New connected socket [id: CaMD04iEIFGdGogOAAAB] 
