@@ -53,15 +53,18 @@ async function updateBoard(req, res) {
         const updatedBoard = await boardService.update(board)
         console.log('board from update', updatedBoard)
 
+        console.log('board-updateBoard!!!!!!!!!!!!', board);
+        console.log('loggedinUser-updateBoard!!!!!!!', loggedinUser);
 
-                     // socketService.broadcast({ type:  'board-update', data: board, userId: loggedinUser._id })
+        socketService.broadcast({ type: 'board-update', data: board, userId: loggedinUser._id })
+        console.log('test$$%^$$#$%');
         // socketService.broadcast({ type: 'board-update', data: board, userId: loggedinUser._id })
-                    // socketService.emitToUser({type: 'review-about-you', data: review, userId: review.aboutUser._id})
-                    // socketService.emitToUser({ type: 'board-update-about-you', data: board, userId: board.members })
+        // socketService.emitToUser({type: 'review-about-you', data: review, userId: review.aboutUser._id})
+        // socketService.emitToUser({ type: 'board-update-about-you', data: board, userId: board.members })
 
-                    // const fullUser = await userService.getById(loggedinUser._id)
         // const fullUser = await userService.getById(loggedinUser._id)
-                       // socketService.emitTo({ type: 'user-updated', data: fullUser, label: fullUser._id })
+        // const fullUser = await userService.getById(loggedinUser._id)
+        // socketService.emitTo({ type: 'user-updated', data: fullUser, label: fullUser._id })
         // socketService.emitTo({ type: 'user-updated', data: fullUser, label: fullUser._id })
 
 
