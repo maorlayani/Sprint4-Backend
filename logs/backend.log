@@ -49,3 +49,5 @@
 27.9.2022, 21:35:37 - DEBUG - auth.service - login with username: MaorL 
 27.9.2022, 21:35:37 - INFO - User login:  | {"_id":"6332faa7922b2776bc37a642","username":"MaorL","fullname":"Maor Layani","imgUrl":"https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"} 
 28.9.2022, 10:51:33 - INFO - New connected socket [id: CaMD04iEIFGdGogOAAAB] 
+28.9.2022, 10:53:13 - INFO - Socket disconnected [id: undefined] 
+28.9.2022, 10:54:27 - INFO - New connected socket [id: 8VSBJuI6rY11PjQMAAAD] 
