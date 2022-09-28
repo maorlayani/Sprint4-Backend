@@ -1,0 +1,426 @@
+27.9.2022, 10:03:11 - INFO - New connected socket [id: Os4QRu6u1EtTGUWxAAAB] 
+27.9.2022, 10:03:12 - INFO - Setting socket.userId = null for socket [id: Os4QRu6u1EtTGUWxAAAB] 
+27.9.2022, 10:10:55 - INFO - New connected socket [id: 0L0LtZz0sVF5VlqoAAAD] 
+27.9.2022, 10:10:56 - INFO - Setting socket.userId = null for socket [id: 0L0LtZz0sVF5VlqoAAAD] 
+27.9.2022, 10:12:34 - INFO - Setting socket.userId = null for socket [id: 0L0LtZz0sVF5VlqoAAAD] 
+27.9.2022, 10:13:35 - INFO - Removing socket.userId for socket [id: 0L0LtZz0sVF5VlqoAAAD] 
+27.9.2022, 10:13:37 - INFO - Removing socket.userId for socket [id: 0L0LtZz0sVF5VlqoAAAD] 
+27.9.2022, 10:13:39 - INFO - Removing socket.userId for socket [id: 0L0LtZz0sVF5VlqoAAAD] 
+27.9.2022, 10:13:40 - INFO - Removing socket.userId for socket [id: 0L0LtZz0sVF5VlqoAAAD] 
+27.9.2022, 10:13:42 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 10:13:42 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 10:13:44 - INFO - New connected socket [id: rIDxCBHZca5AF2yVAAAF] 
+27.9.2022, 10:19:26 - INFO - Removing socket.userId for socket [id: rIDxCBHZca5AF2yVAAAF] 
+27.9.2022, 10:20:23 - INFO - Removing socket.userId for socket [id: rIDxCBHZca5AF2yVAAAF] 
+27.9.2022, 10:20:53 - INFO - Setting socket.userId = null for socket [id: rIDxCBHZca5AF2yVAAAF] 
+27.9.2022, 10:21:20 - INFO - Removing socket.userId for socket [id: rIDxCBHZca5AF2yVAAAF] 
+27.9.2022, 10:21:21 - INFO - New connected socket [id: MfM7qYvzgbYK4LQ5AAAH] 
+27.9.2022, 10:22:11 - INFO - New connected socket [id: XmtyfwRSSaLPgDKDAAAJ] 
+27.9.2022, 10:22:13 - INFO - Setting socket.userId = null for socket [id: XmtyfwRSSaLPgDKDAAAJ] 
+27.9.2022, 10:22:52 - INFO - New connected socket [id: L7noChZm69Oqz1ocAAAL] 
+27.9.2022, 10:22:52 - INFO - Setting socket.userId = null for socket [id: L7noChZm69Oqz1ocAAAL] 
+27.9.2022, 10:22:56 - INFO - Removing socket.userId for socket [id: L7noChZm69Oqz1ocAAAL] 
+27.9.2022, 10:23:08 - INFO - Setting socket.userId = null for socket [id: L7noChZm69Oqz1ocAAAL] 
+27.9.2022, 10:37:33 - INFO - Removing socket.userId for socket [id: L7noChZm69Oqz1ocAAAL] 
+27.9.2022, 10:38:05 - INFO - Setting socket.userId = null for socket [id: L7noChZm69Oqz1ocAAAL] 
+27.9.2022, 10:38:23 - INFO - Removing socket.userId for socket [id: L7noChZm69Oqz1ocAAAL] 
+27.9.2022, 10:38:33 - INFO - Setting socket.userId = null for socket [id: L7noChZm69Oqz1ocAAAL] 
+27.9.2022, 10:39:12 - INFO - New connected socket [id: xDlNAJTYuzK-seTvAAAN] 
+27.9.2022, 10:39:13 - INFO - Setting socket.userId = null for socket [id: xDlNAJTYuzK-seTvAAAN] 
+27.9.2022, 10:39:18 - INFO - Setting socket.userId = Q896w3 for socket [id: xDlNAJTYuzK-seTvAAAN] 
+27.9.2022, 10:41:59 - INFO - New connected socket [id: 7bVGzm5SRIFRSVepAAAF] 
+27.9.2022, 10:41:59 - INFO - New connected socket [id: -XjuJ20oy3uF1ubGAAAG] 
+27.9.2022, 10:41:59 - INFO - New connected socket [id: RPDdXKsel3KWo5fjAAAH] 
+27.9.2022, 10:41:59 - INFO - New connected socket [id: oRvYRqmS_488JN94AAAI] 
+27.9.2022, 10:41:59 - INFO - New connected socket [id: DeTTBkSvnRw5VzphAAAJ] 
+27.9.2022, 10:42:12 - INFO - Setting socket.userId = Q896w3 for socket [id: oRvYRqmS_488JN94AAAI] 
+27.9.2022, 10:48:28 - INFO - Setting socket.userId = null for socket [id: oRvYRqmS_488JN94AAAI] 
+27.9.2022, 11:06:12 - INFO - Setting socket.userId = Q896w3 for socket [id: oRvYRqmS_488JN94AAAI] 
+27.9.2022, 11:06:48 - INFO - Setting socket.userId = Q896w3 for socket [id: oRvYRqmS_488JN94AAAI] 
+27.9.2022, 11:42:30 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 11:42:30 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 11:42:30 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 11:42:30 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 11:42:30 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 11:45:18 - INFO - New connected socket [id: sh3Uh0uM6ZImD_ITAAAP] 
+27.9.2022, 11:45:18 - INFO - New connected socket [id: HIm5tecpj3F7F9nqAAAQ] 
+27.9.2022, 11:45:18 - INFO - New connected socket [id: IzULl5qetz_d0ZBRAAAR] 
+27.9.2022, 11:45:18 - INFO - New connected socket [id: Q0rDcNolA3m3vGI5AAAS] 
+27.9.2022, 11:45:18 - INFO - New connected socket [id: CZ92o-UzmIIs7nkyAAAT] 
+27.9.2022, 11:45:27 - INFO - Setting socket.userId = null for socket [id: CZ92o-UzmIIs7nkyAAAT] 
+27.9.2022, 11:45:31 - INFO - Setting socket.userId = Q896w3 for socket [id: CZ92o-UzmIIs7nkyAAAT] 
+27.9.2022, 11:46:05 - INFO - Setting socket.userId = Q896w3 for socket [id: CZ92o-UzmIIs7nkyAAAT] 
+27.9.2022, 11:48:50 - INFO - New connected socket [id: fTOLNM96xpaE8lJZAAAV] 
+27.9.2022, 11:49:23 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 11:49:24 - INFO - New connected socket [id: uExRnBOHDYR9RD_-AAAX] 
+27.9.2022, 12:02:43 - INFO - New connected socket [id: s83a6YoBtYc9e5mNAAAZ] 
+27.9.2022, 12:02:44 - INFO - New connected socket [id: YG2bKeBskr8bxFf5AAAb] 
+27.9.2022, 12:02:45 - INFO - Setting socket.userId = null for socket [id: YG2bKeBskr8bxFf5AAAb] 
+27.9.2022, 12:26:39 - INFO - New connected socket [id: w-wO_tK_qSUoSARcAAAd] 
+27.9.2022, 12:26:39 - INFO - New connected socket [id: kQEbgJxX8fl0nZ61AAAf] 
+27.9.2022, 12:26:40 - INFO - Setting socket.userId = null for socket [id: kQEbgJxX8fl0nZ61AAAf] 
+27.9.2022, 13:25:46 - INFO - New connected socket [id: DZW85FD6v3Vx-vvkAAAF] 
+27.9.2022, 13:25:46 - INFO - New connected socket [id: Cnf8NR0x6vCLpMUuAAAG] 
+27.9.2022, 13:25:46 - INFO - New connected socket [id: eljOsQzf4PeCjDkAAAAH] 
+27.9.2022, 13:25:46 - INFO - New connected socket [id: SviBSev49r11B0DbAAAJ] 
+27.9.2022, 13:25:46 - INFO - New connected socket [id: HSmp14Zue-mU5Ak8AAAK] 
+27.9.2022, 13:25:46 - INFO - New connected socket [id: ac0bPeZdCADzyVkWAAAL] 
+27.9.2022, 13:25:47 - INFO - New connected socket [id: RROenihdMJVflfJCAAAQ] 
+27.9.2022, 13:25:47 - INFO - New connected socket [id: ONwWUFrf5bUC-uaNAAAR] 
+27.9.2022, 13:25:47 - INFO - New connected socket [id: QhDMsEovciVbIYv4AAAS] 
+27.9.2022, 13:25:47 - INFO - New connected socket [id: uJMkdZHNViSivZ_VAAAT] 
+27.9.2022, 13:31:12 - INFO - New connected socket [id: sIX3eemKmLnzx-D_AAAJ] 
+27.9.2022, 13:31:12 - INFO - New connected socket [id: q9KThipsSc-vMXSIAAAL] 
+27.9.2022, 13:31:12 - INFO - New connected socket [id: UR5FVFxGCkUK9qvVAAAM] 
+27.9.2022, 13:31:12 - INFO - New connected socket [id: Dm2rapQs8U58kJkAAAAN] 
+27.9.2022, 13:31:12 - INFO - New connected socket [id: CSR5zhdACvU2IfskAAAO] 
+27.9.2022, 13:31:12 - INFO - New connected socket [id: zzrZLTtgilCTBJ5OAAAP] 
+27.9.2022, 13:31:12 - INFO - New connected socket [id: UfyxOnVHrzq1p_FkAAAQ] 
+27.9.2022, 13:31:12 - INFO - New connected socket [id: 8PHeDn87gu9hznXWAAAR] 
+27.9.2022, 13:31:12 - INFO - New connected socket [id: BS-F2MaQ4G51LZkGAAAS] 
+27.9.2022, 13:31:12 - INFO - New connected socket [id: UuKHxAsD8_CnfDSqAAAT] 
+27.9.2022, 13:32:41 - INFO - New connected socket [id: OFmfJ-Viq_m3SVwiAAAJ] 
+27.9.2022, 13:32:41 - INFO - New connected socket [id: 5D5Wt_6GHRZdfAtPAAAL] 
+27.9.2022, 13:32:41 - INFO - New connected socket [id: wzPjm7GYGu7kJPTEAAAM] 
+27.9.2022, 13:32:41 - INFO - New connected socket [id: uoWAUBKk2SBtkuQiAAAN] 
+27.9.2022, 13:32:41 - INFO - New connected socket [id: 2Xc0vEXodjIQ3QhyAAAO] 
+27.9.2022, 13:32:41 - INFO - New connected socket [id: SW2m0X_9T94wWRO_AAAP] 
+27.9.2022, 13:32:41 - INFO - New connected socket [id: U9gxi0ZutxavBWZsAAAQ] 
+27.9.2022, 13:32:41 - INFO - New connected socket [id: 9n8Nyyv6IvDRSeU-AAAS] 
+27.9.2022, 13:32:41 - INFO - New connected socket [id: Ttw-hK1p-qAejV1tAAAR] 
+27.9.2022, 13:32:41 - INFO - New connected socket [id: KEY9LgCJ_Pxh5q9YAAAT] 
+27.9.2022, 13:49:00 - INFO - New connected socket [id: svUf-mBGVPfq0IDsAAAX] 
+27.9.2022, 13:49:00 - INFO - New connected socket [id: Dw8RudeH3u-iDlBZAAAW] 
+27.9.2022, 13:49:01 - INFO - Setting socket.userId = null for socket [id: svUf-mBGVPfq0IDsAAAX] 
+27.9.2022, 13:50:49 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 13:50:49 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 13:50:49 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 13:50:49 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 13:50:49 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 13:50:49 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 13:50:49 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 13:50:49 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 13:51:28 - INFO - New connected socket [id: FQPn-1I_-3wxqO4oAAAZ] 
+27.9.2022, 13:52:13 - INFO - New connected socket [id: un76O4T-8oTywZ3oAAAB] 
+27.9.2022, 13:52:13 - INFO - New connected socket [id: q7HMxak_iaVjMuemAAAD] 
+27.9.2022, 13:52:13 - INFO - New connected socket [id: KZKfB6efx0bcMiNlAAAF] 
+27.9.2022, 13:52:14 - INFO - New connected socket [id: S0bGCqwESF3wryjoAAAH] 
+27.9.2022, 13:52:14 - INFO - New connected socket [id: 4qJFVV_uWcuqwQKcAAAJ] 
+27.9.2022, 13:59:39 - INFO - New connected socket [id: bLDmTvBha0M77vHdAAAE] 
+27.9.2022, 13:59:39 - INFO - New connected socket [id: bw5AjX7JDzlu7eAJAAAF] 
+27.9.2022, 13:59:39 - INFO - New connected socket [id: WpEH2Fk98bX5ZvLrAAAG] 
+27.9.2022, 13:59:39 - INFO - New connected socket [id: rwZC3z_oLJkUTfA0AAAH] 
+27.9.2022, 13:59:40 - INFO - New connected socket [id: TJ6XpMrRRFxK-4vXAAAJ] 
+27.9.2022, 13:59:45 - INFO - New connected socket [id: yVbINuMp98-Yuw8ZAAAD] 
+27.9.2022, 13:59:45 - INFO - New connected socket [id: AeZwUgES2e8slXZFAAAE] 
+27.9.2022, 13:59:45 - INFO - New connected socket [id: zk6qom4V6PWMLwyfAAAF] 
+27.9.2022, 13:59:46 - INFO - New connected socket [id: 3nkPeYDULpHPDa4JAAAI] 
+27.9.2022, 13:59:46 - INFO - New connected socket [id: geC-R8stGXlwmeKHAAAJ] 
+27.9.2022, 13:59:59 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 13:59:59 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 13:59:59 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 13:59:59 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 14:00:00 - INFO - New connected socket [id: 9wju-f4YDk4l58-sAAAL] 
+27.9.2022, 14:00:14 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 14:00:14 - INFO - New connected socket [id: MtPnBDMHobuUIcAWAAAN] 
+27.9.2022, 14:00:20 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 14:00:20 - INFO - New connected socket [id: 4xJ-wgi1kNGJKgR-AAAP] 
+27.9.2022, 14:00:50 - INFO - New connected socket [id: 6GEXj0c2WUOQ5HgAAAAB] 
+27.9.2022, 14:00:50 - INFO - New connected socket [id: SghOZMynhevWdOoKAAAD] 
+27.9.2022, 14:01:06 - INFO - New connected socket [id: bqKOxH6oI_BpiuG5AAAB] 
+27.9.2022, 14:01:07 - INFO - New connected socket [id: Ns25urpUNSp-DMLBAAAD] 
+27.9.2022, 14:07:23 - INFO - New connected socket [id: IDE7I9DQQZkFvjXWAAAB] 
+27.9.2022, 14:07:23 - INFO - New connected socket [id: t0xHbyLsIBcjsKI9AAAD] 
+27.9.2022, 14:08:14 - INFO - New connected socket [id: ui43z4f8v92sKTqPAAAB] 
+27.9.2022, 14:08:14 - INFO - New connected socket [id: EWIRYj6qno2HDqpcAAAD] 
+27.9.2022, 14:12:02 - INFO - New connected socket [id: aN5UGllJcWk3DqPbAAAC] 
+27.9.2022, 14:12:02 - INFO - New connected socket [id: hqb6WLUVJ9Yj7I09AAAD] 
+27.9.2022, 14:19:50 - INFO - New connected socket [id: SB1ehlZOKpH-5TpzAAAB] 
+27.9.2022, 14:19:50 - INFO - New connected socket [id: Eey5nhGBTDEbwfDMAAAD] 
+27.9.2022, 14:20:45 - INFO - New connected socket [id: g3VsMlocVPyPuooBAAAB] 
+27.9.2022, 14:20:45 - INFO - New connected socket [id: rde2Z4xP3EoC88l5AAAD] 
+27.9.2022, 14:20:50 - INFO - New connected socket [id: UkDa5gDJmiri5yrPAAAB] 
+27.9.2022, 14:20:51 - INFO - New connected socket [id: 3xEypRUeUaDcQ4CjAAAD] 
+27.9.2022, 14:21:24 - INFO - New connected socket [id: l6kTW5la3pJFpv0BAAAB] 
+27.9.2022, 14:21:25 - INFO - New connected socket [id: Ps8NuApgP2mszTmkAAAD] 
+27.9.2022, 14:56:43 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 14:56:43 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 17:58:17 - INFO - New connected socket [id: dvxaqTMgpN1KlDT4AAAG] 
+27.9.2022, 17:58:17 - INFO - New connected socket [id: AS90a2MSK4bTdoepAAAH] 
+27.9.2022, 18:18:40 - INFO - New connected socket [id: rvF8XZNaK7OEv5eDAAAC] 
+27.9.2022, 18:18:40 - INFO - New connected socket [id: x0wNiWxM2HTg-kHsAAAD] 
+27.9.2022, 18:19:03 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 18:19:04 - INFO - New connected socket [id: GvxHgJ60uPz9XIIiAAAF] 
+27.9.2022, 18:19:15 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 18:19:16 - INFO - New connected socket [id: 34tZIQ5h7Sx3ZukLAAAH] 
+27.9.2022, 18:19:30 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 18:19:31 - INFO - New connected socket [id: nO4azDtcX4E1c0hvAAAJ] 
+27.9.2022, 18:19:33 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 18:19:33 - INFO - New connected socket [id: VGom6AV6ANf3aOY7AAAL] 
+27.9.2022, 18:19:41 - INFO - New connected socket [id: UrJW0uyjU9kPVtiBAAAB] 
+27.9.2022, 18:19:41 - INFO - New connected socket [id: YcId0zajm1ZWtkgeAAAD] 
+27.9.2022, 18:26:34 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 18:26:35 - INFO - New connected socket [id: -efN2nV3M0W_me99AAAF] 
+27.9.2022, 18:37:19 - INFO - New chat msg from socket [id: UrJW0uyjU9kPVtiBAAAB], emitting to topic Love 
+27.9.2022, 18:37:21 - INFO - New chat msg from socket [id: UrJW0uyjU9kPVtiBAAAB], emitting to topic Love 
+27.9.2022, 18:37:23 - INFO - New chat msg from socket [id: UrJW0uyjU9kPVtiBAAAB], emitting to topic Love 
+27.9.2022, 18:37:45 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 18:37:47 - INFO - New connected socket [id: JvT9NZ5dbxbF2vZWAAAH] 
+27.9.2022, 18:38:08 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 18:38:08 - INFO - New connected socket [id: HYCtrR-eBtLQga9VAAAJ] 
+27.9.2022, 18:48:41 - INFO - New connected socket [id: st6TTPhNumgU_SsxAAAB] 
+27.9.2022, 18:48:41 - INFO - New connected socket [id: RS-tjLoUC2XiWd29AAAD] 
+27.9.2022, 18:52:35 - INFO - Socket is leaving topic Politics [id: RS-tjLoUC2XiWd29AAAD] 
+27.9.2022, 19:00:59 - INFO - New chat msg from socket [id: RS-tjLoUC2XiWd29AAAD], emitting to topic Love 
+27.9.2022, 19:01:01 - INFO - New chat msg from socket [id: RS-tjLoUC2XiWd29AAAD], emitting to topic Love 
+27.9.2022, 19:01:02 - INFO - Socket is leaving topic Love [id: RS-tjLoUC2XiWd29AAAD] 
+27.9.2022, 19:01:04 - INFO - New chat msg from socket [id: RS-tjLoUC2XiWd29AAAD], emitting to topic Politics 
+27.9.2022, 19:01:23 - INFO - New chat msg from socket [id: RS-tjLoUC2XiWd29AAAD], emitting to topic Politics 
+27.9.2022, 19:01:26 - INFO - New chat msg from socket [id: RS-tjLoUC2XiWd29AAAD], emitting to topic Politics 
+27.9.2022, 19:02:53 - INFO - New chat msg from socket [id: RS-tjLoUC2XiWd29AAAD], emitting to topic Politics 
+27.9.2022, 19:02:54 - INFO - New chat msg from socket [id: RS-tjLoUC2XiWd29AAAD], emitting to topic Politics 
+27.9.2022, 19:03:12 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 19:03:13 - INFO - New connected socket [id: Ytwe702_B8ixJh3EAAAF] 
+27.9.2022, 19:04:45 - INFO - New chat msg from socket [id: Ytwe702_B8ixJh3EAAAF], emitting to topic Love 
+27.9.2022, 19:04:47 - INFO - New chat msg from socket [id: Ytwe702_B8ixJh3EAAAF], emitting to topic Love 
+27.9.2022, 19:04:54 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 19:04:55 - INFO - New connected socket [id: ahWgLw0E1ctu4HrqAAAH] 
+27.9.2022, 19:10:33 - INFO - New connected socket [id: ym36ZmGC24u3F5ccAAAB] 
+27.9.2022, 19:10:33 - INFO - New connected socket [id: ARB0nDC-PjM4TeM5AAAD] 
+27.9.2022, 19:10:49 - INFO - New connected socket [id: _ekKyaHl_3iAhVouAAAB] 
+27.9.2022, 19:10:49 - INFO - New connected socket [id: 9N9dfO3V0YatQ12eAAAD] 
+27.9.2022, 19:11:41 - INFO - New connected socket [id: zZRXz6wp_PvHQitPAAAB] 
+27.9.2022, 19:11:41 - INFO - New connected socket [id: YDkAf250h7jFbQRjAAAD] 
+27.9.2022, 19:32:53 - INFO - New chat msg from socket [id: zZRXz6wp_PvHQitPAAAB], emitting to topic Love 
+27.9.2022, 19:32:54 - INFO - New connected socket [id: yaaBdB6vGJ_s58RYAAAF] 
+27.9.2022, 19:32:57 - INFO - New chat msg from socket [id: yaaBdB6vGJ_s58RYAAAF], emitting to topic undefined 
+27.9.2022, 19:33:00 - INFO - New chat msg from socket [id: yaaBdB6vGJ_s58RYAAAF], emitting to topic undefined 
+27.9.2022, 19:33:20 - INFO - New chat msg from socket [id: yaaBdB6vGJ_s58RYAAAF], emitting to topic Love 
+27.9.2022, 19:33:21 - INFO - New chat msg from socket [id: yaaBdB6vGJ_s58RYAAAF], emitting to topic Love 
+27.9.2022, 19:36:37 - INFO - New chat msg from socket [id: yaaBdB6vGJ_s58RYAAAF], emitting to topic Love 
+27.9.2022, 19:36:38 - INFO - New connected socket [id: WHlKmpMUWUqoqc5oAAAH] 
+27.9.2022, 19:39:18 - INFO - New chat msg from socket [id: WHlKmpMUWUqoqc5oAAAH], emitting to topic Love 
+27.9.2022, 19:39:19 - INFO - New chat msg from socket [id: WHlKmpMUWUqoqc5oAAAH], emitting to topic Love 
+27.9.2022, 19:39:58 - INFO - New chat msg from socket [id: WHlKmpMUWUqoqc5oAAAH], emitting to topic Love 
+27.9.2022, 19:39:58 - INFO - New chat msg from socket [id: WHlKmpMUWUqoqc5oAAAH], emitting to topic Love 
+27.9.2022, 19:40:00 - INFO - New chat msg from socket [id: WHlKmpMUWUqoqc5oAAAH], emitting to topic Love 
+27.9.2022, 19:40:07 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 19:40:07 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 19:40:07 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 19:40:09 - INFO - New connected socket [id: IxX6wiKCoZLYD2ksAAAJ] 
+27.9.2022, 19:40:23 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 19:40:24 - INFO - New connected socket [id: nr3z8aH6xzoN3l9IAAAL] 
+27.9.2022, 19:41:00 - INFO - New chat msg from socket [id: nr3z8aH6xzoN3l9IAAAL], emitting to topic Love 
+27.9.2022, 19:41:01 - INFO - New chat msg from socket [id: nr3z8aH6xzoN3l9IAAAL], emitting to topic Love 
+27.9.2022, 19:41:01 - INFO - New chat msg from socket [id: nr3z8aH6xzoN3l9IAAAL], emitting to topic Love 
+27.9.2022, 19:41:02 - INFO - New chat msg from socket [id: nr3z8aH6xzoN3l9IAAAL], emitting to topic Love 
+27.9.2022, 19:41:28 - INFO - New chat msg from socket [id: nr3z8aH6xzoN3l9IAAAL], emitting to topic Love 
+27.9.2022, 19:41:30 - INFO - New chat msg from socket [id: nr3z8aH6xzoN3l9IAAAL], emitting to topic Love 
+27.9.2022, 19:45:17 - INFO - New chat msg from socket [id: nr3z8aH6xzoN3l9IAAAL], emitting to topic Love 
+27.9.2022, 19:45:18 - INFO - New chat msg from socket [id: nr3z8aH6xzoN3l9IAAAL], emitting to topic Love 
+27.9.2022, 19:45:57 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 19:45:58 - INFO - New connected socket [id: Xc7GPpQZAummXC8yAAAN] 
+27.9.2022, 19:46:17 - INFO - New chat msg from socket [id: nr3z8aH6xzoN3l9IAAAL], emitting to topic Love 
+27.9.2022, 19:46:20 - INFO - New chat msg from socket [id: nr3z8aH6xzoN3l9IAAAL], emitting to topic Love 
+27.9.2022, 19:46:25 - INFO - New chat msg from socket [id: nr3z8aH6xzoN3l9IAAAL], emitting to topic Love 
+27.9.2022, 19:47:29 - INFO - New chat msg from socket [id: Xc7GPpQZAummXC8yAAAN], emitting to topic Love 
+27.9.2022, 20:05:47 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 20:05:48 - INFO - New connected socket [id: NaQ2TAR2vZEcjwwuAAAP] 
+27.9.2022, 20:06:01 - INFO - New chat msg from socket [id: nr3z8aH6xzoN3l9IAAAL], emitting to topic Love 
+27.9.2022, 20:06:02 - INFO - New connected socket [id: HXIHBqCgGTluecNJAAAR] 
+27.9.2022, 20:06:02 - INFO - New connected socket [id: 6imJqOv0T20rG1UhAAAT] 
+27.9.2022, 20:06:06 - INFO - New chat msg from socket [id: 6imJqOv0T20rG1UhAAAT], emitting to topic undefined 
+27.9.2022, 20:06:28 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 20:06:28 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 20:06:29 - INFO - New connected socket [id: mkOVPXouhJrvD-TVAAAV] 
+27.9.2022, 20:07:14 - INFO - New chat msg from socket [id: mkOVPXouhJrvD-TVAAAV], emitting to topic Love 
+27.9.2022, 20:07:14 - INFO - New connected socket [id: zxDgPnsVD3Gm23T2AAAX] 
+27.9.2022, 20:07:15 - INFO - New connected socket [id: UTUGbysTx9Wyxgy3AAAZ] 
+27.9.2022, 20:07:15 - INFO - New chat msg from socket [id: zxDgPnsVD3Gm23T2AAAX], emitting to topic undefined 
+27.9.2022, 20:07:17 - INFO - New chat msg from socket [id: zxDgPnsVD3Gm23T2AAAX], emitting to topic undefined 
+27.9.2022, 20:07:21 - INFO - New chat msg from socket [id: UTUGbysTx9Wyxgy3AAAZ], emitting to topic undefined 
+27.9.2022, 20:07:30 - INFO - New chat msg from socket [id: zxDgPnsVD3Gm23T2AAAX], emitting to topic undefined 
+27.9.2022, 20:07:36 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 20:07:36 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 20:07:37 - INFO - New connected socket [id: hUFYpEs04utXImeIAAAb] 
+27.9.2022, 20:07:40 - INFO - New chat msg from socket [id: hUFYpEs04utXImeIAAAb], emitting to topic Love 
+27.9.2022, 20:07:46 - INFO - New chat msg from socket [id: hUFYpEs04utXImeIAAAb], emitting to topic Love 
+27.9.2022, 20:07:49 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 20:07:49 - INFO - New connected socket [id: 2LeK9k1f_E1Tugb3AAAd] 
+27.9.2022, 20:08:21 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 20:08:21 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 20:08:21 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 20:08:22 - INFO - New connected socket [id: 8eWhA0f0_WwMdoEcAAAf] 
+27.9.2022, 20:08:32 - INFO - New chat msg from socket [id: 2LeK9k1f_E1Tugb3AAAd], emitting to topic Love 
+27.9.2022, 20:08:39 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 20:08:39 - INFO - New connected socket [id: Ob4ORjzTtdYobeeZAAAh] 
+27.9.2022, 20:10:27 - INFO - Socket is leaving topic Love [id: Ob4ORjzTtdYobeeZAAAh] 
+27.9.2022, 20:10:29 - INFO - Socket is leaving topic Politics [id: Ob4ORjzTtdYobeeZAAAh] 
+27.9.2022, 20:10:31 - INFO - New chat msg from socket [id: Ob4ORjzTtdYobeeZAAAh], emitting to topic Love 
+27.9.2022, 20:10:34 - INFO - New chat msg from socket [id: Ob4ORjzTtdYobeeZAAAh], emitting to topic Love 
+27.9.2022, 20:10:36 - INFO - New chat msg from socket [id: Ob4ORjzTtdYobeeZAAAh], emitting to topic Love 
+27.9.2022, 20:10:38 - INFO - New chat msg from socket [id: Ob4ORjzTtdYobeeZAAAh], emitting to topic Love 
+27.9.2022, 20:35:05 - INFO - New chat msg from socket [id: Ob4ORjzTtdYobeeZAAAh], emitting to topic Love 
+27.9.2022, 20:35:28 - INFO - Setting socket.userId = Q896w3 for socket [id: Ob4ORjzTtdYobeeZAAAh] 
+27.9.2022, 20:35:33 - INFO - New chat msg from socket [id: Ob4ORjzTtdYobeeZAAAh], emitting to topic Love 
+27.9.2022, 20:35:37 - INFO - New chat msg from socket [id: Ob4ORjzTtdYobeeZAAAh], emitting to topic Love 
+27.9.2022, 20:36:03 - INFO - New chat msg from socket [id: Ob4ORjzTtdYobeeZAAAh], emitting to topic Love 
+27.9.2022, 20:36:36 - INFO - New chat msg from socket [id: Ob4ORjzTtdYobeeZAAAh], emitting to topic Love 
+27.9.2022, 20:36:46 - INFO - New chat msg from socket [id: Ob4ORjzTtdYobeeZAAAh], emitting to topic Love 
+27.9.2022, 20:36:47 - INFO - New chat msg from socket [id: Ob4ORjzTtdYobeeZAAAh], emitting to topic Love 
+27.9.2022, 20:38:07 - INFO - New chat msg from socket [id: Ob4ORjzTtdYobeeZAAAh], emitting to topic Love 
+27.9.2022, 20:38:16 - INFO - New chat msg from socket [id: Ob4ORjzTtdYobeeZAAAh], emitting to topic Love 
+27.9.2022, 20:39:13 - INFO - New chat msg from socket [id: Ob4ORjzTtdYobeeZAAAh], emitting to topic Love 
+27.9.2022, 20:39:24 - INFO - New chat msg from socket [id: Ob4ORjzTtdYobeeZAAAh], emitting to topic Love 
+27.9.2022, 20:40:01 - INFO - New chat msg from socket [id: Ob4ORjzTtdYobeeZAAAh], emitting to topic Love 
+27.9.2022, 20:40:04 - INFO - New chat msg from socket [id: Ob4ORjzTtdYobeeZAAAh], emitting to topic Love 
+27.9.2022, 20:40:13 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 20:40:14 - INFO - New connected socket [id: 3SKCPur21OOxwHUyAAAj] 
+27.9.2022, 20:40:15 - INFO - Setting socket.userId = null for socket [id: 3SKCPur21OOxwHUyAAAj] 
+27.9.2022, 20:40:19 - INFO - New chat msg from socket [id: 3SKCPur21OOxwHUyAAAj], emitting to topic Love 
+27.9.2022, 20:40:58 - INFO - New chat msg from socket [id: 3SKCPur21OOxwHUyAAAj], emitting to topic Love 
+27.9.2022, 20:41:21 - INFO - New chat msg from socket [id: 3SKCPur21OOxwHUyAAAj], emitting to topic Love 
+27.9.2022, 20:41:23 - INFO - New chat msg from socket [id: 3SKCPur21OOxwHUyAAAj], emitting to topic Love 
+27.9.2022, 20:42:48 - INFO - New chat msg from socket [id: 3SKCPur21OOxwHUyAAAj], emitting to topic Love 
+27.9.2022, 20:42:51 - INFO - New chat msg from socket [id: 3SKCPur21OOxwHUyAAAj], emitting to topic Love 
+27.9.2022, 20:50:43 - INFO - Socket is leaving topic Love [id: 3SKCPur21OOxwHUyAAAj] 
+27.9.2022, 20:50:45 - INFO - Socket is leaving topic Politics [id: 3SKCPur21OOxwHUyAAAj] 
+27.9.2022, 20:50:48 - INFO - New chat msg from socket [id: 3SKCPur21OOxwHUyAAAj], emitting to topic Love 
+27.9.2022, 20:50:51 - INFO - New chat msg from socket [id: 3SKCPur21OOxwHUyAAAj], emitting to topic Love 
+27.9.2022, 20:51:00 - INFO - New chat msg from socket [id: 3SKCPur21OOxwHUyAAAj], emitting to topic Love 
+27.9.2022, 21:26:42 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 21:26:42 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 21:31:06 - INFO - New connected socket [id: 7CHxbzHiOSGnfxo9AAAm] 
+27.9.2022, 21:31:06 - INFO - New connected socket [id: BKejbFOf6rAN7Fs1AAAn] 
+27.9.2022, 21:31:44 - INFO - Setting socket.userId = Q896w3 for socket [id: 7CHxbzHiOSGnfxo9AAAm] 
+27.9.2022, 21:31:49 - INFO - New chat msg from socket [id: 7CHxbzHiOSGnfxo9AAAm], emitting to topic Love 
+27.9.2022, 21:31:52 - INFO - New chat msg from socket [id: 7CHxbzHiOSGnfxo9AAAm], emitting to topic Love 
+27.9.2022, 21:32:08 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 21:32:09 - INFO - New connected socket [id: nzfEPc-j2K926QR_AAAp] 
+27.9.2022, 21:32:10 - INFO - Setting socket.userId = null for socket [id: nzfEPc-j2K926QR_AAAp] 
+27.9.2022, 21:32:34 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 21:32:35 - INFO - New connected socket [id: WSHRbqEfl8O-PiZcAAAr] 
+27.9.2022, 21:32:35 - INFO - Setting socket.userId = null for socket [id: WSHRbqEfl8O-PiZcAAAr] 
+27.9.2022, 21:32:43 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 21:32:44 - INFO - New connected socket [id: w9pxBpmuiSyfSjOYAAAt] 
+27.9.2022, 21:32:44 - INFO - Setting socket.userId = null for socket [id: w9pxBpmuiSyfSjOYAAAt] 
+27.9.2022, 21:32:50 - INFO - Setting socket.userId = Q896w3 for socket [id: w9pxBpmuiSyfSjOYAAAt] 
+27.9.2022, 21:32:52 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 21:32:52 - INFO - New connected socket [id: NoDuD4sA071yPmFAAAAv] 
+27.9.2022, 21:32:52 - INFO - Setting socket.userId = null for socket [id: NoDuD4sA071yPmFAAAAv] 
+27.9.2022, 21:34:33 - INFO - New chat msg from socket [id: NoDuD4sA071yPmFAAAAv], emitting to topic Love 
+27.9.2022, 21:34:37 - INFO - New chat msg from socket [id: NoDuD4sA071yPmFAAAAv], emitting to topic Love 
+27.9.2022, 21:37:34 - INFO - New chat msg from socket [id: NoDuD4sA071yPmFAAAAv], emitting to topic Love 
+27.9.2022, 21:39:17 - INFO - New chat msg from socket [id: NoDuD4sA071yPmFAAAAv], emitting to topic Love 
+27.9.2022, 21:39:50 - INFO - New chat msg from socket [id: NoDuD4sA071yPmFAAAAv], emitting to topic Love 
+27.9.2022, 21:40:58 - INFO - New chat msg from socket [id: NoDuD4sA071yPmFAAAAv], emitting to topic Love 
+27.9.2022, 21:41:50 - INFO - New chat msg from socket [id: NoDuD4sA071yPmFAAAAv], emitting to topic Love 
+27.9.2022, 21:43:14 - INFO - New chat msg from socket [id: NoDuD4sA071yPmFAAAAv], emitting to topic Love 
+27.9.2022, 21:43:51 - INFO - New chat msg from socket [id: NoDuD4sA071yPmFAAAAv], emitting to topic Love 
+27.9.2022, 21:47:24 - INFO - New chat msg from socket [id: NoDuD4sA071yPmFAAAAv], emitting to topic Love 
+27.9.2022, 21:47:52 - INFO - New chat msg from socket [id: NoDuD4sA071yPmFAAAAv], emitting to topic Love 
+27.9.2022, 21:48:17 - INFO - New chat msg from socket [id: NoDuD4sA071yPmFAAAAv], emitting to topic Love 
+27.9.2022, 21:48:28 - INFO - New chat msg from socket [id: NoDuD4sA071yPmFAAAAv], emitting to topic Love 
+27.9.2022, 21:50:08 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 21:50:10 - INFO - New connected socket [id: DgsIYUt12hEL0D4jAAAx] 
+27.9.2022, 21:50:10 - INFO - Setting socket.userId = null for socket [id: DgsIYUt12hEL0D4jAAAx] 
+27.9.2022, 21:50:16 - INFO - New chat msg from socket [id: DgsIYUt12hEL0D4jAAAx], emitting to topic Love 
+27.9.2022, 21:51:11 - INFO - New chat msg from socket [id: DgsIYUt12hEL0D4jAAAx], emitting to topic Love 
+27.9.2022, 21:51:54 - INFO - New chat msg from socket [id: DgsIYUt12hEL0D4jAAAx], emitting to topic Love 
+27.9.2022, 21:51:59 - INFO - New chat msg from socket [id: DgsIYUt12hEL0D4jAAAx], emitting to topic Love 
+27.9.2022, 21:53:00 - INFO - New chat msg from socket [id: DgsIYUt12hEL0D4jAAAx], emitting to topic Love 
+27.9.2022, 21:53:16 - INFO - New chat msg from socket [id: DgsIYUt12hEL0D4jAAAx], emitting to topic Love 
+27.9.2022, 21:55:43 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 21:55:44 - INFO - New connected socket [id: 7tcaz4_hyMcAG35RAAAz] 
+27.9.2022, 21:55:45 - INFO - Setting socket.userId = null for socket [id: 7tcaz4_hyMcAG35RAAAz] 
+27.9.2022, 21:56:40 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 21:56:41 - INFO - New connected socket [id: cq_wT63k3GNZT-UiAAA1] 
+27.9.2022, 21:56:41 - INFO - Setting socket.userId = null for socket [id: cq_wT63k3GNZT-UiAAA1] 
+27.9.2022, 21:56:59 - INFO - New chat msg from socket [id: cq_wT63k3GNZT-UiAAA1], emitting to topic Love 
+27.9.2022, 21:57:23 - INFO - New chat msg from socket [id: cq_wT63k3GNZT-UiAAA1], emitting to topic Love 
+27.9.2022, 21:57:26 - INFO - New chat msg from socket [id: cq_wT63k3GNZT-UiAAA1], emitting to topic Love 
+27.9.2022, 21:57:28 - INFO - New chat msg from socket [id: cq_wT63k3GNZT-UiAAA1], emitting to topic Love 
+27.9.2022, 21:57:45 - INFO - Setting socket.userId = Q896w3 for socket [id: cq_wT63k3GNZT-UiAAA1] 
+27.9.2022, 21:57:50 - INFO - New chat msg from socket [id: cq_wT63k3GNZT-UiAAA1], emitting to topic Love 
+27.9.2022, 21:58:58 - INFO - New chat msg from socket [id: cq_wT63k3GNZT-UiAAA1], emitting to topic Love 
+27.9.2022, 21:59:00 - INFO - New chat msg from socket [id: cq_wT63k3GNZT-UiAAA1], emitting to topic Love 
+27.9.2022, 21:59:10 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 21:59:11 - INFO - New connected socket [id: diHNisO7lq7C_ILmAAA3] 
+27.9.2022, 21:59:15 - INFO - New chat msg from socket [id: diHNisO7lq7C_ILmAAA3], emitting to topic Love 
+27.9.2022, 21:59:19 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 21:59:19 - INFO - New connected socket [id: xZutM6qDcag7GfCtAAA5] 
+27.9.2022, 21:59:34 - INFO - New chat msg from socket [id: xZutM6qDcag7GfCtAAA5], emitting to topic Love 
+27.9.2022, 21:59:39 - INFO - New chat msg from socket [id: cq_wT63k3GNZT-UiAAA1], emitting to topic Love 
+27.9.2022, 21:59:46 - INFO - New chat msg from socket [id: xZutM6qDcag7GfCtAAA5], emitting to topic Love 
+27.9.2022, 21:59:50 - INFO - New chat msg from socket [id: cq_wT63k3GNZT-UiAAA1], emitting to topic Love 
+27.9.2022, 22:00:02 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 22:00:03 - INFO - New connected socket [id: eRPJaB9QN3VsaqxAAAA7] 
+27.9.2022, 22:00:12 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 22:00:12 - INFO - New connected socket [id: twzEuJSfw2PoixjJAAA9] 
+27.9.2022, 22:00:14 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 22:00:14 - INFO - New connected socket [id: REwkoPpoqmevW0IzAAA_] 
+27.9.2022, 22:00:24 - INFO - New chat msg from socket [id: REwkoPpoqmevW0IzAAA_], emitting to topic Love 
+27.9.2022, 22:11:28 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 22:11:28 - INFO - New connected socket [id: KLspTFQ_tHLQ9upaAABB] 
+27.9.2022, 22:11:34 - INFO - New chat msg from socket [id: KLspTFQ_tHLQ9upaAABB], emitting to topic Love 
+27.9.2022, 22:11:40 - INFO - New chat msg from socket [id: cq_wT63k3GNZT-UiAAA1], emitting to topic Love 
+27.9.2022, 22:11:48 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 22:11:48 - INFO - New connected socket [id: P3fNa_zvRoWhg0OLAABD] 
+27.9.2022, 22:11:56 - INFO - New chat msg from socket [id: P3fNa_zvRoWhg0OLAABD], emitting to topic Love 
+27.9.2022, 22:13:53 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 22:14:20 - INFO - New connected socket [id: 9g8LCXQHW4HDWdyNAABF] 
+27.9.2022, 22:25:24 - INFO - New chat msg from socket [id: 9g8LCXQHW4HDWdyNAABF], emitting to topic Love 
+27.9.2022, 22:28:06 - INFO - New chat msg from socket [id: 9g8LCXQHW4HDWdyNAABF], emitting to topic Love 
+27.9.2022, 22:29:27 - INFO - New chat msg from socket [id: 9g8LCXQHW4HDWdyNAABF], emitting to topic Love 
+27.9.2022, 23:15:05 - INFO - New chat msg from socket [id: 9g8LCXQHW4HDWdyNAABF], emitting to topic Love 
+27.9.2022, 23:15:12 - INFO - New chat msg from socket [id: 9g8LCXQHW4HDWdyNAABF], emitting to topic Love 
+27.9.2022, 23:15:34 - INFO - New chat msg from socket [id: 9g8LCXQHW4HDWdyNAABF], emitting to topic Love 
+27.9.2022, 23:16:25 - INFO - New chat msg from socket [id: 9g8LCXQHW4HDWdyNAABF], emitting to topic Love 
+27.9.2022, 23:16:30 - INFO - New chat msg from socket [id: 9g8LCXQHW4HDWdyNAABF], emitting to topic Love 
+27.9.2022, 23:17:12 - INFO - New chat msg from socket [id: 9g8LCXQHW4HDWdyNAABF], emitting to topic Love 
+27.9.2022, 23:19:33 - INFO - New chat msg from socket [id: 9g8LCXQHW4HDWdyNAABF], emitting to topic Love 
+27.9.2022, 23:20:16 - INFO - New chat msg from socket [id: 9g8LCXQHW4HDWdyNAABF], emitting to topic Love 
+27.9.2022, 23:21:53 - INFO - New chat msg from socket [id: 9g8LCXQHW4HDWdyNAABF], emitting to topic Love 
+27.9.2022, 23:23:21 - INFO - New chat msg from socket [id: 9g8LCXQHW4HDWdyNAABF], emitting to topic Love 
+27.9.2022, 23:23:24 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 23:23:26 - INFO - New connected socket [id: Cj1HjAjLDGmHIIdEAABH] 
+27.9.2022, 23:23:29 - INFO - New chat msg from socket [id: Cj1HjAjLDGmHIIdEAABH], emitting to topic Love 
+27.9.2022, 23:23:49 - INFO - New chat msg from socket [id: Cj1HjAjLDGmHIIdEAABH], emitting to topic Love 
+27.9.2022, 23:24:02 - INFO - New chat msg from socket [id: Cj1HjAjLDGmHIIdEAABH], emitting to topic Love 
+27.9.2022, 23:24:07 - INFO - New chat msg from socket [id: Cj1HjAjLDGmHIIdEAABH], emitting to topic Love 
+27.9.2022, 23:24:41 - INFO - New chat msg from socket [id: Cj1HjAjLDGmHIIdEAABH], emitting to topic Love 
+27.9.2022, 23:25:34 - INFO - New chat msg from socket [id: Cj1HjAjLDGmHIIdEAABH], emitting to topic Love 
+27.9.2022, 23:25:49 - INFO - New chat msg from socket [id: Cj1HjAjLDGmHIIdEAABH], emitting to topic Love 
+27.9.2022, 23:26:08 - INFO - New chat msg from socket [id: Cj1HjAjLDGmHIIdEAABH], emitting to topic Love 
+27.9.2022, 23:27:58 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 23:28:00 - INFO - New connected socket [id: 0irfwS2EC1gGytzpAABJ] 
+27.9.2022, 23:28:38 - INFO - New chat msg from socket [id: 0irfwS2EC1gGytzpAABJ], emitting to topic Love 
+27.9.2022, 23:41:47 - INFO - New chat msg from socket [id: 0irfwS2EC1gGytzpAABJ], emitting to topic Love 
+27.9.2022, 23:41:51 - INFO - New chat msg from socket [id: 0irfwS2EC1gGytzpAABJ], emitting to topic Love 
+27.9.2022, 23:42:12 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 23:42:13 - INFO - New connected socket [id: HzjEdFFXaE9lO1IqAABL] 
+27.9.2022, 23:42:16 - INFO - Socket disconnected [id: undefined] 
+27.9.2022, 23:42:17 - INFO - New connected socket [id: j_mPXD4EWnnYxm0HAABN] 
+27.9.2022, 23:42:23 - INFO - New chat msg from socket [id: j_mPXD4EWnnYxm0HAABN], emitting to topic Love 
+27.9.2022, 23:48:32 - INFO - New chat msg from socket [id: j_mPXD4EWnnYxm0HAABN], emitting to topic Love 
+27.9.2022, 23:48:55 - INFO - New chat msg from socket [id: j_mPXD4EWnnYxm0HAABN], emitting to topic Love 
+27.9.2022, 23:49:21 - INFO - New chat msg from socket [id: j_mPXD4EWnnYxm0HAABN], emitting to topic Love 
+27.9.2022, 23:49:26 - INFO - New chat msg from socket [id: j_mPXD4EWnnYxm0HAABN], emitting to topic Love 
+28.9.2022, 0:28:31 - INFO - Socket disconnected [id: undefined] 
+28.9.2022, 0:28:31 - INFO - Socket disconnected [id: undefined] 
+28.9.2022, 3:30:04 - INFO - New connected socket [id: XLl68Ijm2uovas9tAABQ] 
+28.9.2022, 3:30:04 - INFO - New connected socket [id: EoExfVHY6QwjzEA6AABR] 
+28.9.2022, 4:00:27 - INFO - Socket disconnected [id: undefined] 
+28.9.2022, 4:00:27 - INFO - Socket disconnected [id: undefined] 
+28.9.2022, 7:02:00 - INFO - New connected socket [id: o95sauC4Td_81ooaAABU] 
+28.9.2022, 7:02:00 - INFO - New connected socket [id: 82ZMnVR51hOTzBkkAABV] 
+28.9.2022, 7:32:23 - INFO - Socket disconnected [id: undefined] 
+28.9.2022, 7:32:23 - INFO - Socket disconnected [id: undefined] 
+28.9.2022, 7:57:50 - INFO - New connected socket [id: AOeRrJvzdmMAppJdAABY] 
+28.9.2022, 7:57:50 - INFO - New connected socket [id: ALvqGCAjHf0i8hUlAABZ] 
+28.9.2022, 8:33:15 - INFO - Socket disconnected [id: undefined] 
+28.9.2022, 8:33:15 - INFO - Socket disconnected [id: undefined] 
+28.9.2022, 8:45:27 - INFO - New connected socket [id: 09g2M2a8TLfygBjzAABb] 
+28.9.2022, 8:45:27 - INFO - New connected socket [id: XQtnuxFJwLHLlosMAABd] 
+28.9.2022, 8:51:12 - INFO - Socket disconnected [id: undefined] 
+28.9.2022, 9:00:38 - INFO - New connected socket [id: q7M9uaG6kEIn7S4RAAAB] 

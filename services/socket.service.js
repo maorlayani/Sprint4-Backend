@@ -43,6 +43,7 @@ function setupSocketAPI(http) {
         socket.on('set-user-socket', userId => {
             logger.info(`Setting socket.userId = ${userId} for socket [id: ${socket.id}]`)
             socket.userId = userId
+            console.log(socket.userId);
         })
         socket.on('unset-user-socket', () => {
             logger.info(`Removing socket.userId for socket [id: ${socket.id}]`)
@@ -54,6 +55,24 @@ function setupSocketAPI(http) {
 
         // })
     })
+}
+
+function emitTo({ type, data, label }) {
+    if (label) gIo.to('watching:' + label.toString()).emit(type, data)
+    else gIo.emit(type, data)
+}
+
+async function emitToUser({ type, data, userId }) {
+    userId = userId?.toString()
+    const socket = await _getUserSocket(userId)
+
+    if (socket) {
+        logger.info(`Emiting event: ${type} to user: ${userId} socket [id: ${socket.id}]`)
+        socket.emit(type, data)
+    } else {
+        logger.info(`No active socket for user: ${userId}`)
+        // _printSockets()
+    }
 }
 
 // If possible, send to all sockets BUT not the current socket 
@@ -93,10 +112,10 @@ module.exports = {
     // set up the sockets service and define the API
     setupSocketAPI,
     // emit to everyone / everyone in a specific room (label)
-    // emitTo,
+    emitTo,
     // emit to a specific user (if currently active in system)
-    // emitToUser,
+    emitToUser,
     // Send to all sockets BUT not the current socket - if found
     // (otherwise broadcast to a room / to all)
-    // broadcast,
+    broadcast,
 }
