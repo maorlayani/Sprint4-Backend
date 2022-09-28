@@ -619,3 +619,9 @@
 28.9.2022, 21:04:06 - DEBUG - auth.service - login with username: MaorL 
 28.9.2022, 21:04:06 - INFO - User login:  | {"_id":"6332faa7922b2776bc37a642","username":"MaorL","fullname":"Maor Layani","imgUrl":"https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"} 
 28.9.2022, 21:04:07 - INFO - Setting socket.userId = null for socket [id: kkGayc-nnjtSwt0wAAAJ] 
+28.9.2022, 21:21:53 - INFO - New connected socket [id: Veqx3PCIWnsBdIC_AAAC] 
+28.9.2022, 21:21:53 - INFO - New connected socket [id: VLsmAzEA1cGyO_aqAAAD] 
+28.9.2022, 21:22:07 - INFO - New connected socket [id: 0-KRv0mT8ZxaC8qJAAAB] 
+28.9.2022, 21:22:08 - INFO - New connected socket [id: 6KrNZs_Yn1v7JdnrAAAD] 
+28.9.2022, 21:28:54 - INFO - New connected socket [id: 8z45oqhXxEVCMp6nAAAC] 
+28.9.2022, 21:28:54 - INFO - New connected socket [id: q9mwhd7PX9dm3qV6AAAD] 
