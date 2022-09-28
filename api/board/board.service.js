@@ -2,6 +2,7 @@
 const dbService = require('../../services/db.service')
 // var gBoard = require('../../data/Board.json')
 const ObjectId = require('mongodb').ObjectId
+const userService = require('../user/user.service')
 
 module.exports = {
     query,
@@ -56,6 +57,7 @@ async function remove(boardId) {
 async function add(board) {
     try {
         const collection = await dbService.getCollection('board')
+        board.labels = labelsData
         const addedBoard = await collection.insertOne(board)
         // console.log('FROM SERVER SERVICES', addedBoard.ops)
         return addedBoard.ops[0]
@@ -66,15 +68,10 @@ async function add(board) {
 
 async function update(board) {
     try {
-        var id = ObjectId(board._id)
-        delete board._id
-        // console.log('id', id)
+        const boardToSave = { ...board, _id: ObjectId(board._id) }
         const collection = await dbService.getCollection('board')
-        await collection.findOneAndUpdate({ _id: id }, { $set: { ...board } }, { upsert: true, returnNewDocument: true })
-        const updatedBoard = await getById(id)
-        // board._id = ObjectId(id)
-        console.log('board from service after update', updatedBoard)
-        return updatedBoard
+        await collection.updateOne({ _id: boardToSave._id }, { $set: boardToSave })
+        return boardToSave
     } catch (err) {
         throw err
     }
