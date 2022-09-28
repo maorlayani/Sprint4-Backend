@@ -1,5 +1,6 @@
 // const fs = require('fs')
 const dbService = require('../../services/db.service')
+const { makeId } = require('../../services/util.service')
 // var gBoard = require('../../data/Board.json')
 const ObjectId = require('mongodb').ObjectId
 const userService = require('../user/user.service')
@@ -120,193 +121,69 @@ const labelsData = [
 
 const gDefaultBoards = [
     {
-        "title": "Robot dev proj",
-        "archivedAt": null,
-        "createdAt": Date.now(),
-        "isStarred": false,
-        "createdBy": {
-            "_id": _makeId(),
-            "fullname": "Abi Abambi",
-            "imgUrl": "http://some-img"
-        },
+        "title": "Company Overview",
         "style": {
-            "bgColor": "#26de81"
+            "bgColor": null,
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664197071/pawel-czerwinski-lKEvGdP0Oig-unsplash_xhxxbf.jpg"
         },
-        "labels": labelsData,
-        "groups": [
+        "activities": [
             {
-                "id": "g101",
-                "title": "Group 1",
-                "archivedAt": 1589983468418,
-                "tasks": [
-                    {
-                        "id": "c101",
-                        "title": "Replace logo",
-                        "style": {
-                            "bg": {
-                                "color": " #26de81",
-                                "imgUrl": null,
-                                "fullCover": true
-                            }
-                        }
-                    },
-                    {
-                        "id": "c102",
-                        "title": "Add Samples"
-                    }
-                ],
-                "style": {}
-            },
-            {
-                "id": "g102",
-                "title": "Group 2",
-                "tasks": [
-                    {
-                        "id": "c103",
-                        "title": "Do that",
-                        "description": "sprint 4",
-                        "createdAt": 1590999730348,
-                        "archivedAt": 1589983468418
-                    },
-                    {
-                        "id": "c104",
-                        "title": "Help me",
-                        "status": "in-progress",
-                        "description": "description",
-                        "createdAt": 1590999730348,
-                        "dueDate": {
-                            "date": 16156215211,
-                            "isDone": false,
-                            "createdAt": 1590999730348
-                        },
-                        "byMember": {
-                            "_id": "u101",
-                            "username": "Tal",
-                            "fullname": "Tal Tarablus",
-                            "imgUrl": "http://res.cloudinary.com/shaishar9/image/upload/v1590850482/j1glw3c9jsoz2py0miol.jpg"
-                        },
-                        "style": {
-                            "bg": {
-                                "color": null,
-                                "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1663229153/code_mvpcmf.jpg",
-                                "fullCover": true
-                            }
-                        }
-                    }
-                ],
-                "style": {}
+                "txt": "created this board",
+                "task": {
+                    "task": "",
+                    "title": ""
+                },
+                "id": "uNJDlX",
+                "createdAt": 1664381690416.0,
+                "byMember": {
+                    "_id": "63343b65c6b5a26b005fdacc",
+                    "fullname": "Risan Benichou",
+                    "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
+                }
             }
         ],
-        "activities": []
+        "labels": [
+            {
+                "id": "l101",
+                "title": "",
+                "color": "#7BC86C"
+            },
+            {
+                "id": "l102",
+                "title": "",
+                "color": "#F5DD29"
+            },
+            {
+                "id": "l103",
+                "title": "",
+                "color": "#FFAF3F"
+            },
+            {
+                "id": "l104",
+                "title": "",
+                "color": "#EF7564"
+            },
+            {
+                "id": "l105",
+                "title": "",
+                "color": "#CD8DE5"
+            },
+            {
+                "id": "l106",
+                "title": "",
+                "color": "#5BA4CF"
+            }
+        ]
     },
     {
-        "title": "Sprint 3",
-        "archivedAt": null,
-        "isStarred": false,
-        "createdAt": Date.now(),
-        "createdBy": {
-            "_id": _makeId(),
-            "fullname": "Abi Abambi",
-            "imgUrl": "http://some-img"
-        },
-        "style": {
-            "bgColor": "#223ccec5"
-        },
-        "labels": labelsData,
-        "members": [
-            {
-                "_id": "u101",
-                "fullname": "Maor Layani",
-                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"
-            },
-            {
-                "_id": "u102",
-                "fullname": "Nir Shvrchberg",
-                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03MSPLQ11T-d3d9e810a0d9-72"
-            },
-            {
-                "_id": "u103",
-                "fullname": "Risan Benichou",
-                "imgUrl": null
-            }
-        ],
-        "groups": [
-            {
-                "id": "g111",
-                "title": "Frontend",
-                "archivedAt": 1589983468418,
-                "tasks": [
-                    {
-                        "id": "c111",
-                        "title": "Replace logo",
-                        "memberIds": ["u102"],
-                        "labelIds": ["l105"],
-                    },
-                    {
-                        "id": "c112",
-                        "title": "Add Samples"
-                    }
-                ],
-                "style": {}
-            },
-            {
-                "id": "g112",
-                "title": "Backend",
-                "tasks": [
-                    {
-                        "id": "c113",
-                        "title": "Do that",
-                        "description": "sprint 4",
-                        "createdAt": 1590999730348,
-                        "archivedAt": 1589983468418,
-                        "style": {
-                            "bg": {
-                                "color": null,
-                                "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1663229161/bug_bkvxx9.jpg",
-                                "fullCover": false
-                            }
-                        }
-                    },
-                    {
-                        "id": "c114",
-                        "title": "Help me",
-                        "status": "in-progress",
-                        "description": "description",
-                        "createdAt": 1590999730348,
-                        "dueDate": {
-                            "date": 16156215211,
-                            "isDone": false,
-                            "createdAt": 1590999730348
-                        },
-                        "byMember": {
-                            "_id": "u101",
-                            "username": "Tal",
-                            "fullname": "Tal Tarablus",
-                            "imgUrl": "http://res.cloudinary.com/shaishar9/image/upload/v1590850482/j1glw3c9jsoz2py0miol.jpg"
-                        },
-                        "style": {
-                            "bg": {
-                                "color": "#00de81",
-                                "imgUrl": null,
-                                "fullCover": false
-                            }
-                        }
-                    }
-                ],
-                "style": {}
-            }
-        ],
-        "activities": []
-    },
-    {
-        "title": "Sprint 4 - demo data",
+        "title": "Project sTrello",
         "archivedAt": null,
         "isStarred": true,
-        "createdAt": Date.now(),
+        "createdAt": 1664381690416,
         "createdBy": {
             "_id": _makeId(),
-            "fullname": "Abi Abambi",
-            "imgUrl": "http://some-img"
+            "fullname": "Maor Layani",
+            "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"
         },
         "style": {
             "bgColor": null,
@@ -327,7 +204,7 @@ const gDefaultBoards = [
             {
                 "_id": "u103",
                 "fullname": "Risan Benichou",
-                "imgUrl": null
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
             }
         ],
         "groups": [
@@ -347,7 +224,7 @@ const gDefaultBoards = [
                         "style": {
                             "bg": {
                                 "color": null,
-                                "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1663348742/background-img-mountains_kqtnuv.jpg",
+                                "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664375512/marvin-meyer-SYTO3xs06fU-unsplash_s7stik.jpg",
                                 "fullCover": false
                             }
                         },
@@ -364,7 +241,30 @@ const gDefaultBoards = [
                                 "fullCover": false
                             }
                         },
-                        "desc": "Complete Socket implementation after implementation beckend"
+                        "desc": "Complete Socket implementation after implementation beckend",
+                        "checklists": [
+                            {
+                                "id": "OBU90u",
+                                "title": "Socket implementation todos",
+                                "todos": [
+                                    {
+                                        "id": "AFRdYo",
+                                        "title": "Add socket service in backend",
+                                        "isDone": true
+                                    },
+                                    {
+                                        "id": "huiFGd",
+                                        "title": "Add socket service in frontend",
+                                        "isDone": true
+                                    },
+                                    {
+                                        "id": "eT4qdY",
+                                        "title": "Add socket to activities",
+                                        "isDone": false
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "id": "c204",
@@ -381,7 +281,7 @@ const gDefaultBoards = [
                         "style": {
                             "bg": {
                                 "color": null,
-                                "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1663348746/background-img-fog_qkibl9.jpg",
+                                "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664375608/taylor-vick-M5tzZtFCOfs-unsplash_fh1qzi.jpg",
                                 "fullCover": false
                             }
                         },
@@ -415,7 +315,7 @@ const gDefaultBoards = [
                         "memberIds": ["u101", "u102", "u103"],
                         "watcedMemberIds": ["u101"],
                         "dueDate": {
-                            "date": 16156215211,
+                            "date": 1664485200000,
                             "isDone": false,
                             "createdAt": 1590999730348
                         },
@@ -433,7 +333,7 @@ const gDefaultBoards = [
                         "style": {
                             "bg": {
                                 "color": null,
-                                "imgUrl": "https://images.unsplash.com/photo-1663076121570-eb6e69bdde3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw3MDY2fDB8MXxjb2xsZWN0aW9ufDEwfDMxNzA5OXx8fHx8Mnx8MTY2MzM0ODI4OQ&ixlib=rb-1.2.1&q=80&w=200",
+                                "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664375731/rodion-kutsaev-VKfqHv7qjNs-unsplash_ffegqb.jpg",
                                 "fullCover": false
                             }
                         }
@@ -456,7 +356,7 @@ const gDefaultBoards = [
                         "title": "Functional testing for app header",
                         "labelIds": ["l103", "l104"],
                         "dueDate": {
-                            "date": 16156215211,
+                            "date": 1664744400000,
                             "isDone": true,
                             "createdAt": 1590999730348
                         },
@@ -470,11 +370,11 @@ const gDefaultBoards = [
                     },
                     {
                         "id": "c402",
-                        "title": "Build basic template",
+                        "title": "Conecting to PWA",
                         "style": {
                             "bg": {
                                 "color": null,
-                                "imgUrl": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/480x365/0eba7de903143c66f2ac55cdb0b7de58/photo-1662943523548-373718f22124.jpg",
+                                "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664383563/rahul-chakraborty-xsGxhtAsfSA-unsplash_mxl0ph.jpg",
                                 "fullCover": false
                             }
                         },
@@ -513,6 +413,7 @@ const gDefaultBoards = [
                     {
                         "id": "c502",
                         "title": "Making functions and mixins",
+                        "labelIds": ["l101", "l105"],
                         "memberIds": ["u102"],
                         "attachments": [
                             { id: 'at102', url: "https://www.w3schools.com/cssref/css_functions.asp", urlName: 'css function', addedAt: new Date() },
@@ -524,8 +425,8 @@ const gDefaultBoards = [
                         "id": "c503",
                         "title": "CSS directory",
                         "dueDate": {
-                            "date": 16156215211,
-                            "isDone": false,
+                            "date": 1664139600000,
+                            "isDone": true,
                             "createdAt": 1590999730348
                         },
                     },
@@ -566,7 +467,7 @@ const gDefaultBoards = [
                             "bg": {
                                 "color": null,
                                 "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1663229161/bug_bkvxx9.jpg",
-                                "fullCover": true
+                                "fullCover": false
                             }
                         },
                         "attachments": [{ id: 'at104', url: "https://en.wikipedia.org/wiki/Bugs", urlName: 'Bugs', addedAt: new Date() }]
@@ -625,31 +526,476 @@ const gDefaultBoards = [
         ],
         "activities": [
             {
-                "id": "a998",
-                "txt": "changed color",
-                "createdAt": 1663007630419,
-                "byMember": {
-                    "_id": "u999",
-                    "fullname": "Guest",
-                    "imgUrl": null
-                },
+                "txt": "marked the due date on Functional testing for app header incomplete",
                 "task": {
-                    "id": "c701",
-                    "title": "Replace Logo"
-                }
-            }, {
-                "id": "a999",
-                "txt": "added checklist",
-                "createdAt": 1663800630419,
-                "byMember": {
-                    "_id": "u999",
-                    "fullname": "Guest",
-                    "imgUrl": "https://trello-members.s3.amazonaws.com/63197a231392a3015ea3b649/1af72162e2d7c08fd66a6b36476c1515/170.png"
+                    "id": "c401",
+                    "title": ""
                 },
-                "task": {
-                    "id": "c701",
-                    "title": "Becklog-Client"
+                "id": "1QiPDg",
+                "createdAt": 1664386021900.0,
+                "byMember": {
+                    "_id": "63343b65c6b5a26b005fdacc",
+                    "fullname": "Risan Benichou",
+                    "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
                 }
+            },
+            {
+                "task": {
+                    "id": "c202",
+                    "title": "Routing Directory"
+                },
+                "txt": "added Maor Layani to",
+                "id": "4R3dZ7",
+                "createdAt": 1664386019643.0,
+                "byMember": {
+                    "_id": "63343b65c6b5a26b005fdacc",
+                    "fullname": "Risan Benichou",
+                    "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
+                }
+            },
+            {
+                "task": {
+                    "id": "c301",
+                    "title": "Planning the components tree"
+                },
+                "txt": "remove Maor Layani from",
+                "id": "BRGswL",
+                "createdAt": 1664386013672.0,
+                "byMember": {
+                    "_id": "63343b65c6b5a26b005fdacc",
+                    "fullname": "Risan Benichou",
+                    "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
+                }
+            },
+            {
+                "txt": "marked the due date on Functional testing for app header complete",
+                "task": {
+                    "id": "c401",
+                    "title": ""
+                },
+                "id": "Am26u9",
+                "createdAt": 1664386005670.0,
+                "byMember": {
+                    "_id": "63343b65c6b5a26b005fdacc",
+                    "fullname": "Risan Benichou",
+                    "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
+                }
+            },
+            {
+                "txt": "marked the due date on Functional testing for app header incomplete",
+                "task": {
+                    "id": "c401",
+                    "title": ""
+                },
+                "id": "9oXjL9",
+                "createdAt": 1664386004891.0,
+                "byMember": {
+                    "_id": "63343b65c6b5a26b005fdacc",
+                    "fullname": "Risan Benichou",
+                    "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
+                }
+            },
+            {
+                "txt": "created this board",
+                "task": {
+                    "task": "",
+                    "title": ""
+                },
+                "id": "cEhhV",
+                "createdAt": 1664381690416.0,
+                "byMember": {
+                    "_id": "63343b65c6b5a26b005fdacc",
+                    "fullname": "Risan Benichou",
+                    "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
+                }
+            }
+        ]
+    },
+    {
+        "title": "Business plan",
+        "style": {
+            "bgColor": null,
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664196414/ian-dooley-DJ7bWa-Gwks-unsplash_hr2qyq.jpg"
+        },
+        "activities": [
+            {
+                "txt": "created this board",
+                "task": {
+                    "task": "",
+                    "title": ""
+                },
+                "id": "gDtYTF",
+                "createdAt": 1664382007857.0,
+                "byMember": {
+                    "_id": "63343b65c6b5a26b005fdacc",
+                    "fullname": "Risan Benichou",
+                    "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
+                }
+            }
+        ],
+        "labels": [
+            {
+                "id": "l101",
+                "title": "",
+                "color": "#7BC86C"
+            },
+            {
+                "id": "l102",
+                "title": "",
+                "color": "#F5DD29"
+            },
+            {
+                "id": "l103",
+                "title": "",
+                "color": "#FFAF3F"
+            },
+            {
+                "id": "l104",
+                "title": "",
+                "color": "#EF7564"
+            },
+            {
+                "id": "l105",
+                "title": "",
+                "color": "#CD8DE5"
+            },
+            {
+                "id": "l106",
+                "title": "",
+                "color": "#5BA4CF"
+            }
+        ]
+    },
+    {
+        "title": "Design sprint",
+        "style": {
+            "bgColor": null,
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664187022/maxim-berg-Tba7ds4aF_k-unsplash_1_woirqi.jpg"
+        },
+        "activities": [
+            {
+                "txt": "created this board",
+                "task": {
+                    "task": "",
+                    "title": ""
+                },
+                "id": "xmGdh0",
+                "createdAt": 1664382101960.0,
+                "byMember": {
+                    "_id": "63343b65c6b5a26b005fdacc",
+                    "fullname": "Risan Benichou",
+                    "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
+                }
+            }
+        ],
+        "labels": [
+            {
+                "id": "l101",
+                "title": "",
+                "color": "#7BC86C"
+            },
+            {
+                "id": "l102",
+                "title": "",
+                "color": "#F5DD29"
+            },
+            {
+                "id": "l103",
+                "title": "",
+                "color": "#FFAF3F"
+            },
+            {
+                "id": "l104",
+                "title": "",
+                "color": "#EF7564"
+            },
+            {
+                "id": "l105",
+                "title": "",
+                "color": "#CD8DE5"
+            },
+            {
+                "id": "l106",
+                "title": "",
+                "color": "#5BA4CF"
+            }
+        ]
+    },
+    {
+        "title": "Personal workout plan",
+        "isStarred": true,
+        "style": {
+            "bgColor": null,
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664196200/alexander-sinn-KgLtFCgfC28-unsplash_viu9fl.jpg"
+        },
+        "activities": [
+            {
+                "txt": "created this board",
+                "task": {
+                    "task": "",
+                    "title": ""
+                },
+                "id": "jyH8nW",
+                "createdAt": 1664382165380.0,
+                "byMember": {
+                    "_id": "63343b65c6b5a26b005fdacc",
+                    "fullname": "Risan Benichou",
+                    "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
+                }
+            }
+        ],
+        "labels": [
+            {
+                "id": "l101",
+                "title": "",
+                "color": "#7BC86C"
+            },
+            {
+                "id": "l102",
+                "title": "",
+                "color": "#F5DD29"
+            },
+            {
+                "id": "l103",
+                "title": "",
+                "color": "#FFAF3F"
+            },
+            {
+                "id": "l104",
+                "title": "",
+                "color": "#EF7564"
+            },
+            {
+                "id": "l105",
+                "title": "",
+                "color": "#CD8DE5"
+            },
+            {
+                "id": "l106",
+                "title": "",
+                "color": "#5BA4CF"
+            }
+        ]
+    },
+    {
+        "title": "My next vacation",
+        "style": {
+            "bgColor": null,
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664186705/rrvviiii-EVEHo6gWzSM-unsplash_jqec7i.jpg"
+        },
+        "activities": [
+            {
+                "txt": "created this board",
+                "task": {
+                    "task": "",
+                    "title": ""
+                },
+                "id": "DIEwN3",
+                "createdAt": 1664382260847.0,
+                "byMember": {
+                    "_id": "63343b65c6b5a26b005fdacc",
+                    "fullname": "Risan Benichou",
+                    "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
+                }
+            }
+        ],
+        "labels": [
+            {
+                "id": "l101",
+                "title": "",
+                "color": "#7BC86C"
+            },
+            {
+                "id": "l102",
+                "title": "",
+                "color": "#F5DD29"
+            },
+            {
+                "id": "l103",
+                "title": "",
+                "color": "#FFAF3F"
+            },
+            {
+                "id": "l104",
+                "title": "",
+                "color": "#EF7564"
+            },
+            {
+                "id": "l105",
+                "title": "",
+                "color": "#CD8DE5"
+            },
+            {
+                "id": "l106",
+                "title": "",
+                "color": "#5BA4CF"
+            }
+        ]
+    },
+    {
+        "_id": ObjectId("633475a65cc31f3f3c5169e6"),
+        "title": "New Baby todos",
+        "style": {
+            "bgColor": null,
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664197377/ash-from-modern-afflatus-NQ6Lh81BTRs-unsplash_qoe8no.jpg"
+        },
+        "activities": [
+            {
+                "txt": "created this board",
+                "task": {
+                    "task": "",
+                    "title": ""
+                },
+                "id": "9UH1ew",
+                "createdAt": 1664382374891.0,
+                "byMember": {
+                    "_id": "63343b65c6b5a26b005fdacc",
+                    "fullname": "Risan Benichou",
+                    "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
+                }
+            }
+        ],
+        "labels": [
+            {
+                "id": "l101",
+                "title": "",
+                "color": "#7BC86C"
+            },
+            {
+                "id": "l102",
+                "title": "",
+                "color": "#F5DD29"
+            },
+            {
+                "id": "l103",
+                "title": "",
+                "color": "#FFAF3F"
+            },
+            {
+                "id": "l104",
+                "title": "",
+                "color": "#EF7564"
+            },
+            {
+                "id": "l105",
+                "title": "",
+                "color": "#CD8DE5"
+            },
+            {
+                "id": "l106",
+                "title": "",
+                "color": "#5BA4CF"
+            }
+        ],
+        "isStarred": true
+    },
+    {
+        "title": "Marketing overview",
+        "style": {
+            "bgColor": null,
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664196528/jeremy-thomas-O6N9RV2rzX8-unsplash_ndcnyj.jpg"
+        },
+        "activities": [
+            {
+                "txt": "created this board",
+                "task": {
+                    "task": "",
+                    "title": ""
+                },
+                "id": "Wd7zZS",
+                "createdAt": 1664382550504.0,
+                "byMember": {
+                    "_id": "63343b65c6b5a26b005fdacc",
+                    "fullname": "Risan Benichou",
+                    "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
+                }
+            }
+        ],
+        "labels": [
+            {
+                "id": "l101",
+                "title": "",
+                "color": "#7BC86C"
+            },
+            {
+                "id": "l102",
+                "title": "",
+                "color": "#F5DD29"
+            },
+            {
+                "id": "l103",
+                "title": "",
+                "color": "#FFAF3F"
+            },
+            {
+                "id": "l104",
+                "title": "",
+                "color": "#EF7564"
+            },
+            {
+                "id": "l105",
+                "title": "",
+                "color": "#CD8DE5"
+            },
+            {
+                "id": "l106",
+                "title": "",
+                "color": "#5BA4CF"
+            }
+        ]
+    },
+    {
+        "title": "Meal planning",
+        "style": {
+            "bgColor": null,
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664382696/katie-smith-uQs1802D0CQ-unsplash_dwxpri.jpg"
+        },
+        "activities": [
+            {
+                "txt": "created this board",
+                "task": {
+                    "task": "",
+                    "title": ""
+                },
+                "id": "EdVySr",
+                "createdAt": 1664382656822.0,
+                "byMember": {
+                    "_id": "63343b65c6b5a26b005fdacc",
+                    "fullname": "Risan Benichou",
+                    "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
+                }
+            }
+        ],
+        "labels": [
+            {
+                "id": "l101",
+                "title": "",
+                "color": "#7BC86C"
+            },
+            {
+                "id": "l102",
+                "title": "",
+                "color": "#F5DD29"
+            },
+            {
+                "id": "l103",
+                "title": "",
+                "color": "#FFAF3F"
+            },
+            {
+                "id": "l104",
+                "title": "",
+                "color": "#EF7564"
+            },
+            {
+                "id": "l105",
+                "title": "",
+                "color": "#CD8DE5"
+            },
+            {
+                "id": "l106",
+                "title": "",
+                "color": "#5BA4CF"
             }
         ]
     }
