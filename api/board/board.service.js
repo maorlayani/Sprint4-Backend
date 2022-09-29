@@ -466,7 +466,7 @@ const gDefaultBoards = [
                         "style": {
                             "bg": {
                                 "color": null,
-                                "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1663229161/bug_bkvxx9.jpg",
+                                "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664434805/david-pupaza-heNwUmEtZzo-unsplash_cfv5uh.jpg",
                                 "fullCover": false
                             }
                         },
