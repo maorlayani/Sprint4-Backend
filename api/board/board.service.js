@@ -176,7 +176,7 @@ const gDefaultBoards = [
         ]
     },
     {
-        "title": "Project sTrello",
+        "title": "Project Titan",
         "archivedAt": null,
         "isStarred": true,
         "createdAt": 1664381690416,
