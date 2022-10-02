@@ -51,13 +51,13 @@ async function updateBoard(req, res) {
     try {
         const board = req.body
         const updatedBoard = await boardService.update(board)
-        console.log('board from update', updatedBoard)
 
-        console.log('board-updateBoard!!!!!!!!!!!!', board);
-        console.log('loggedinUser-updateBoard!!!!!!!', loggedinUser);
-
-        socketService.broadcast({ type: 'board-update', data: board, userId: loggedinUser._id })
-        console.log('test$$%^$$#$%');
+        socketService.broadcast({
+            type: 'board-update',
+            data: board,
+            userId:
+                loggedinUser._id 
+        })
         // socketService.broadcast({ type: 'board-update', data: board, userId: loggedinUser._id })
         // socketService.emitToUser({type: 'review-about-you', data: review, userId: review.aboutUser._id})
         // socketService.emitToUser({ type: 'board-update-about-you', data: board, userId: board.members })

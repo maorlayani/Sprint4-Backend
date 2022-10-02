@@ -44,8 +44,17 @@ function getLoginToken(user) {
 
 function validateToken(loginToken) {
     try {
-        const json = cryptr.decrypt(loginToken)
-        const loggedinUser = JSON.parse(json)
+        console.log('loginToken', loginToken);
+        if (!loginToken) {
+            loggedinUser = {
+                "_id": "u199",
+                "fullname": "Guest",
+                "imgUrl": "https://trello-members.s3.amazonaws.com/63197a231392a3015ea3b649/1af72162e2d7c08fd66a6b36476c1515/170.png"
+            }
+        } else {
+            const json = cryptr.decrypt(loginToken)
+            const loggedinUser = JSON.parse(json)
+        }
         return loggedinUser
 
     } catch (err) {
