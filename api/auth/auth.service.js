@@ -44,7 +44,6 @@ function getLoginToken(user) {
 
 function validateToken(loginToken) {
     try {
-        console.log('loginToken', loginToken);
         if (!loginToken) {
             loggedinUser = {
                 "_id": "u199",

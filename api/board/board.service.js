@@ -29,7 +29,7 @@ async function query(filterBy) {
         boards = await collection.find(criteria).toArray()
         return boards
     } catch (err) {
-        console.log('ERROR: cannot find boards', err)
+        ('ERROR: cannot find boards', err)
         throw err
     }
 }
@@ -38,7 +38,6 @@ async function getById(boardId) {
     try {
         const collection = await dbService.getCollection('board')
         const board = await collection.findOne({ _id: ObjectId(boardId) })
-        // console.log('board from server')
         return board
     } catch (err) {
         throw err
@@ -60,7 +59,7 @@ async function add(board) {
         const collection = await dbService.getCollection('board')
         board.labels = labelsData
         const addedBoard = await collection.insertOne(board)
-        // console.log('FROM SERVER SERVICES', addedBoard.ops)
+        console.log('addedBoard', addedBoard)
         return addedBoard.ops[0]
     } catch (err) {
         throw err
@@ -142,36 +141,22 @@ const gDefaultBoards = [
                 }
             }
         ],
-        "labels": [
+        "labels": labelsData,
+        "members": [
             {
-                "id": "l101",
-                "title": "",
-                "color": "#7BC86C"
+                "_id": "u101",
+                "fullname": "Maor Layani",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"
             },
             {
-                "id": "l102",
-                "title": "",
-                "color": "#F5DD29"
+                "_id": "u102",
+                "fullname": "Nir Shvrchberg",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03MSPLQ11T-d3d9e810a0d9-72"
             },
             {
-                "id": "l103",
-                "title": "",
-                "color": "#FFAF3F"
-            },
-            {
-                "id": "l104",
-                "title": "",
-                "color": "#EF7564"
-            },
-            {
-                "id": "l105",
-                "title": "",
-                "color": "#CD8DE5"
-            },
-            {
-                "id": "l106",
-                "title": "",
-                "color": "#5BA4CF"
+                "_id": "u103",
+                "fullname": "Risan Benichou",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
             }
         ]
     },
@@ -187,7 +172,7 @@ const gDefaultBoards = [
         },
         "style": {
             "bgColor": null,
-            "imgUrl": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2400x1600/bde90942b25945192718669aca01489b/photo-1662901603057-057ff15eb6eb.jpg"
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664689530/frank-mckenna-OD9EOzfSOh0-unsplash_eyotjy.jpg"
         },
         "labels": labelsData,
         "members": [
@@ -633,36 +618,22 @@ const gDefaultBoards = [
                 }
             }
         ],
-        "labels": [
+        "labels": labelsData,
+        "members": [
             {
-                "id": "l101",
-                "title": "",
-                "color": "#7BC86C"
+                "_id": "u101",
+                "fullname": "Maor Layani",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"
             },
             {
-                "id": "l102",
-                "title": "",
-                "color": "#F5DD29"
+                "_id": "u102",
+                "fullname": "Nir Shvrchberg",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03MSPLQ11T-d3d9e810a0d9-72"
             },
             {
-                "id": "l103",
-                "title": "",
-                "color": "#FFAF3F"
-            },
-            {
-                "id": "l104",
-                "title": "",
-                "color": "#EF7564"
-            },
-            {
-                "id": "l105",
-                "title": "",
-                "color": "#CD8DE5"
-            },
-            {
-                "id": "l106",
-                "title": "",
-                "color": "#5BA4CF"
+                "_id": "u103",
+                "fullname": "Risan Benichou",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
             }
         ]
     },
@@ -688,36 +659,22 @@ const gDefaultBoards = [
                 }
             }
         ],
-        "labels": [
+        "labels": labelsData,
+        "members": [
             {
-                "id": "l101",
-                "title": "",
-                "color": "#7BC86C"
+                "_id": "u101",
+                "fullname": "Maor Layani",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"
             },
             {
-                "id": "l102",
-                "title": "",
-                "color": "#F5DD29"
+                "_id": "u102",
+                "fullname": "Nir Shvrchberg",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03MSPLQ11T-d3d9e810a0d9-72"
             },
             {
-                "id": "l103",
-                "title": "",
-                "color": "#FFAF3F"
-            },
-            {
-                "id": "l104",
-                "title": "",
-                "color": "#EF7564"
-            },
-            {
-                "id": "l105",
-                "title": "",
-                "color": "#CD8DE5"
-            },
-            {
-                "id": "l106",
-                "title": "",
-                "color": "#5BA4CF"
+                "_id": "u103",
+                "fullname": "Risan Benichou",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
             }
         ]
     },
@@ -744,36 +701,22 @@ const gDefaultBoards = [
                 }
             }
         ],
-        "labels": [
+        "labels": labelsData,
+        "members": [
             {
-                "id": "l101",
-                "title": "",
-                "color": "#7BC86C"
+                "_id": "u101",
+                "fullname": "Maor Layani",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"
             },
             {
-                "id": "l102",
-                "title": "",
-                "color": "#F5DD29"
+                "_id": "u102",
+                "fullname": "Nir Shvrchberg",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03MSPLQ11T-d3d9e810a0d9-72"
             },
             {
-                "id": "l103",
-                "title": "",
-                "color": "#FFAF3F"
-            },
-            {
-                "id": "l104",
-                "title": "",
-                "color": "#EF7564"
-            },
-            {
-                "id": "l105",
-                "title": "",
-                "color": "#CD8DE5"
-            },
-            {
-                "id": "l106",
-                "title": "",
-                "color": "#5BA4CF"
+                "_id": "u103",
+                "fullname": "Risan Benichou",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
             }
         ]
     },
@@ -799,36 +742,22 @@ const gDefaultBoards = [
                 }
             }
         ],
-        "labels": [
+        "labels": labelsData,
+        "members": [
             {
-                "id": "l101",
-                "title": "",
-                "color": "#7BC86C"
+                "_id": "u101",
+                "fullname": "Maor Layani",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"
             },
             {
-                "id": "l102",
-                "title": "",
-                "color": "#F5DD29"
+                "_id": "u102",
+                "fullname": "Nir Shvrchberg",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03MSPLQ11T-d3d9e810a0d9-72"
             },
             {
-                "id": "l103",
-                "title": "",
-                "color": "#FFAF3F"
-            },
-            {
-                "id": "l104",
-                "title": "",
-                "color": "#EF7564"
-            },
-            {
-                "id": "l105",
-                "title": "",
-                "color": "#CD8DE5"
-            },
-            {
-                "id": "l106",
-                "title": "",
-                "color": "#5BA4CF"
+                "_id": "u103",
+                "fullname": "Risan Benichou",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
             }
         ]
     },
@@ -855,36 +784,22 @@ const gDefaultBoards = [
                 }
             }
         ],
-        "labels": [
+        "labels": labelsData,
+        "members": [
             {
-                "id": "l101",
-                "title": "",
-                "color": "#7BC86C"
+                "_id": "u101",
+                "fullname": "Maor Layani",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"
             },
             {
-                "id": "l102",
-                "title": "",
-                "color": "#F5DD29"
+                "_id": "u102",
+                "fullname": "Nir Shvrchberg",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03MSPLQ11T-d3d9e810a0d9-72"
             },
             {
-                "id": "l103",
-                "title": "",
-                "color": "#FFAF3F"
-            },
-            {
-                "id": "l104",
-                "title": "",
-                "color": "#EF7564"
-            },
-            {
-                "id": "l105",
-                "title": "",
-                "color": "#CD8DE5"
-            },
-            {
-                "id": "l106",
-                "title": "",
-                "color": "#5BA4CF"
+                "_id": "u103",
+                "fullname": "Risan Benichou",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
             }
         ],
         "isStarred": true
@@ -911,36 +826,22 @@ const gDefaultBoards = [
                 }
             }
         ],
-        "labels": [
+        "labels": labelsData,
+        "members": [
             {
-                "id": "l101",
-                "title": "",
-                "color": "#7BC86C"
+                "_id": "u101",
+                "fullname": "Maor Layani",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"
             },
             {
-                "id": "l102",
-                "title": "",
-                "color": "#F5DD29"
+                "_id": "u102",
+                "fullname": "Nir Shvrchberg",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03MSPLQ11T-d3d9e810a0d9-72"
             },
             {
-                "id": "l103",
-                "title": "",
-                "color": "#FFAF3F"
-            },
-            {
-                "id": "l104",
-                "title": "",
-                "color": "#EF7564"
-            },
-            {
-                "id": "l105",
-                "title": "",
-                "color": "#CD8DE5"
-            },
-            {
-                "id": "l106",
-                "title": "",
-                "color": "#5BA4CF"
+                "_id": "u103",
+                "fullname": "Risan Benichou",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
             }
         ]
     },
@@ -966,36 +867,229 @@ const gDefaultBoards = [
                 }
             }
         ],
-        "labels": [
+        "labels": labelsData,
+        "members": [
             {
-                "id": "l101",
-                "title": "",
-                "color": "#7BC86C"
+                "_id": "u101",
+                "fullname": "Maor Layani",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"
             },
             {
-                "id": "l102",
-                "title": "",
-                "color": "#F5DD29"
+                "_id": "u102",
+                "fullname": "Nir Shvrchberg",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03MSPLQ11T-d3d9e810a0d9-72"
             },
             {
-                "id": "l103",
-                "title": "",
-                "color": "#FFAF3F"
+                "_id": "u103",
+                "fullname": "Risan Benichou",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
+            }
+        ]
+    },
+    {
+        "title": "Daily morning agenda",
+        "style": {
+            "bgColor": null,
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664692449/kyle-glenn-_AR74EoWdy0-unsplash_rhf2nb.jpg"
+        },
+        "activities": [
+            {
+                "txt": "created this board",
+                "task": {
+                    "task": "",
+                    "title": ""
+                },
+                "id": "C2FSNb",
+                "createdAt": 1664691109624.0,
+                "byMember": {
+                    "_id": "u199",
+                    "fullname": "Guest",
+                    "imgUrl": "https://trello-members.s3.amazonaws.com/63197a231392a3015ea3b649/1af72162e2d7c08fd66a6b36476c1515/170.png"
+                }
+            }
+        ],
+        "labels": labelsData,
+        "members": [
+            {
+                "_id": "u101",
+                "fullname": "Maor Layani",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"
             },
             {
-                "id": "l104",
-                "title": "",
-                "color": "#EF7564"
+                "_id": "u102",
+                "fullname": "Nir Shvrchberg",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03MSPLQ11T-d3d9e810a0d9-72"
             },
             {
-                "id": "l105",
-                "title": "",
-                "color": "#CD8DE5"
+                "_id": "u103",
+                "fullname": "Risan Benichou",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
+            }
+        ]
+    },
+    {
+        "title": "Team away day",
+        "style": {
+            "bgColor": null,
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664699079/raphael-biscaldi-7RQf2X6aXXI-unsplash_k6crnk.jpg"
+        },
+        "activities": [
+            {
+                "txt": "created this board",
+                "task": {
+                    "task": "",
+                    "title": ""
+                },
+                "id": "sMQR22",
+                "createdAt": 1664698145918.0,
+                "byMember": {
+                    "_id": "u199",
+                    "fullname": "Guest",
+                    "imgUrl": "https://trello-members.s3.amazonaws.com/63197a231392a3015ea3b649/1af72162e2d7c08fd66a6b36476c1515/170.png"
+                }
+            }
+        ],
+        "labels": labelsData,
+        "members": [
+            {
+                "_id": "u101",
+                "fullname": "Maor Layani",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"
             },
             {
-                "id": "l106",
-                "title": "",
-                "color": "#5BA4CF"
+                "_id": "u102",
+                "fullname": "Nir Shvrchberg",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03MSPLQ11T-d3d9e810a0d9-72"
+            },
+            {
+                "_id": "u103",
+                "fullname": "Risan Benichou",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
+            }
+        ]
+    },
+    {
+        "_id": ObjectId("633947c5724fcc98dcdc6d2c"),
+        "title": "Birthday planning checklist",
+        "style": {
+            "bgColor": null,
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664698270/amy-shamblen-pJ_DCj9KswI-unsplash_dpiduu.jpg"
+        },
+        "activities": [
+            {
+                "txt": "created this board",
+                "task": {
+                    "task": "",
+                    "title": ""
+                },
+                "id": "MbvOVV",
+                "createdAt": 1664698309114.0,
+                "byMember": {
+                    "_id": "u199",
+                    "fullname": "Guest",
+                    "imgUrl": "https://trello-members.s3.amazonaws.com/63197a231392a3015ea3b649/1af72162e2d7c08fd66a6b36476c1515/170.png"
+                }
+            }
+        ],
+        "labels": labelsData,
+        "members": [
+            {
+                "_id": "u101",
+                "fullname": "Maor Layani",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"
+            },
+            {
+                "_id": "u102",
+                "fullname": "Nir Shvrchberg",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03MSPLQ11T-d3d9e810a0d9-72"
+            },
+            {
+                "_id": "u103",
+                "fullname": "Risan Benichou",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
+            }
+        ]
+    },
+    {
+        "title": "Volunteer Program",
+        "style": {
+            "bgColor": null,
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664699491/ana-frantz-Pg6YGIJ97lw-unsplash_aj7dr4.jpg"
+        },
+        "activities": [
+            {
+                "txt": "created this board",
+                "task": {
+                    "task": "",
+                    "title": ""
+                },
+                "id": "v0Pvj6",
+                "createdAt": 1664699205123.0,
+                "byMember": {
+                    "_id": "u199",
+                    "fullname": "Guest",
+                    "imgUrl": "https://trello-members.s3.amazonaws.com/63197a231392a3015ea3b649/1af72162e2d7c08fd66a6b36476c1515/170.png"
+                }
+            }
+        ],
+        "labels": labelsData,
+        "members": [
+            {
+                "_id": "u101",
+                "fullname": "Maor Layani",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"
+            },
+            {
+                "_id": "u102",
+                "fullname": "Nir Shvrchberg",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03MSPLQ11T-d3d9e810a0d9-72"
+            },
+            {
+                "_id": "u103",
+                "fullname": "Risan Benichou",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
+            }
+        ]
+    },
+    {
+        "_id": ObjectId("63396d93724fcc98dcdc6d2f"),
+        "title": "Remote Team Meetings",
+        "style": {
+            "bgColor": null,
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664708145/sigmund-eTgMFFzroGc-unsplash_hg0wdj.jpg"
+        },
+        "activities": [
+            {
+                "txt": "created this board",
+                "task": {
+                    "task": "",
+                    "title": ""
+                },
+                "id": "BppqhR",
+                "createdAt": 1664707987328.0,
+                "byMember": {
+                    "_id": "u199",
+                    "fullname": "Guest",
+                    "imgUrl": "https://trello-members.s3.amazonaws.com/63197a231392a3015ea3b649/1af72162e2d7c08fd66a6b36476c1515/170.png"
+                }
+            }
+        ],
+        "labels": labelsData,
+        "members": [
+            {
+                "_id": "u101",
+                "fullname": "Maor Layani",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"
+            },
+            {
+                "_id": "u102",
+                "fullname": "Nir Shvrchberg",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03MSPLQ11T-d3d9e810a0d9-72"
+            },
+            {
+                "_id": "u103",
+                "fullname": "Risan Benichou",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
             }
         ]
     }
