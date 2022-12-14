@@ -32,6 +32,7 @@ function getLoginToken(user) {
 
 function validateToken(loginToken) {
     try {
+        let loggedinUser
         if (!loginToken) {
             loggedinUser = {
                 "_id": "u199",
@@ -40,7 +41,7 @@ function validateToken(loginToken) {
             }
         } else {
             const json = cryptr.decrypt(loginToken)
-            const loggedinUser = JSON.parse(json)
+            loggedinUser = JSON.parse(json)
         }
         return loggedinUser
 
