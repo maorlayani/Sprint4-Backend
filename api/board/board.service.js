@@ -118,6 +118,13 @@ const labelsData = [
 const gDefaultBoards = [
     {
         "title": "Company Overview",
+        "isStarred": false,
+        "createdAt": 1664380690416,
+        "createdBy": {
+            "_id": "u101",
+            "fullname": "Maor Layani",
+            "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"
+        },
         "style": {
             "bgColor": null,
             "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664197071/pawel-czerwinski-lKEvGdP0Oig-unsplash_xhxxbf.jpg",
@@ -156,7 +163,8 @@ const gDefaultBoards = [
                 "fullname": "Risan Benichou",
                 "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
             }
-        ]
+        ],
+        "groups": []
     },
     {
         "title": "Project Titan",
@@ -164,7 +172,7 @@ const gDefaultBoards = [
         "isStarred": true,
         "createdAt": 1664381690416,
         "createdBy": {
-            "_id": _makeId(),
+            "_id": "u101",
             "fullname": "Maor Layani",
             "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"
         },
@@ -597,6 +605,13 @@ const gDefaultBoards = [
     },
     {
         "title": "Business plan",
+        "isStarred": false,
+        "createdAt": 1664300690416,
+        "createdBy": {
+            "_id": "u101",
+            "fullname": "Maor Layani",
+            "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"
+        },
         "style": {
             "bgColor": null,
             "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664196414/ian-dooley-DJ7bWa-Gwks-unsplash_hr2qyq.jpg",
@@ -635,10 +650,18 @@ const gDefaultBoards = [
                 "fullname": "Risan Benichou",
                 "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
             }
-        ]
+        ],
+        "groups": []
     },
     {
         "title": "Design sprint",
+        "isStarred": false,
+        "createdAt": 1664389990416,
+        "createdBy": {
+            "_id": "u101",
+            "fullname": "Maor Layani",
+            "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"
+        },
         "style": {
             "bgColor": null,
             "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664187022/maxim-berg-Tba7ds4aF_k-unsplash_1_woirqi.jpg",
@@ -677,11 +700,18 @@ const gDefaultBoards = [
                 "fullname": "Risan Benichou",
                 "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
             }
-        ]
+        ],
+        "groups": []
     },
     {
         "title": "Personal workout plan",
         "isStarred": true,
+        "createdAt": 1664380555416,
+        "createdBy": {
+            "_id": "u101",
+            "fullname": "Maor Layani",
+            "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"
+        },
         "style": {
             "bgColor": null,
             "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664704915/kelly-sikkema-IZOAOjvwhaM-unsplash_m2ivzg.jpg",
@@ -720,10 +750,18 @@ const gDefaultBoards = [
                 "fullname": "Risan Benichou",
                 "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
             }
-        ]
+        ],
+        "groups": []
     },
     {
         "title": "My next vacation",
+        "isStarred": false,
+        "createdAt": 1604380555416,
+        "createdBy": {
+            "_id": "u101",
+            "fullname": "Maor Layani",
+            "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"
+        },
         "style": {
             "bgColor": null,
             "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664186705/rrvviiii-EVEHo6gWzSM-unsplash_jqec7i.jpg",
@@ -762,11 +800,18 @@ const gDefaultBoards = [
                 "fullname": "Risan Benichou",
                 "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
             }
-        ]
+        ],
+        "groups": []
     },
     {
-        "_id": ObjectId("633475a65cc31f3f3c5169e6"),
         "title": "New Baby todos",
+        "isStarred": true,
+        "createdAt": 1664380555416,
+        "createdBy": {
+            "_id": "u101",
+            "fullname": "Maor Layani",
+            "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"
+        },
         "style": {
             "bgColor": null,
             "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664197377/ash-from-modern-afflatus-NQ6Lh81BTRs-unsplash_qoe8no.jpg",
@@ -806,10 +851,17 @@ const gDefaultBoards = [
                 "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
             }
         ],
-        "isStarred": true
+        "groups": []
     },
     {
         "title": "Marketing overview",
+        "isStarred": false,
+        "createdAt": 1664380555416,
+        "createdBy": {
+            "_id": "u102",
+            "fullname": "Nir Shvrchberg",
+            "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03MSPLQ11T-d3d9e810a0d9-72"
+        },
         "style": {
             "bgColor": null,
             "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664196528/jeremy-thomas-O6N9RV2rzX8-unsplash_ndcnyj.jpg",
@@ -848,10 +900,18 @@ const gDefaultBoards = [
                 "fullname": "Risan Benichou",
                 "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
             }
-        ]
+        ],
+        "groups": []
     },
     {
         "title": "Meal planning",
+        "isStarred": false,
+        "createdAt": 1664380555416,
+        "createdBy": {
+            "_id": "u102",
+            "fullname": "Nir Shvrchberg",
+            "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03MSPLQ11T-d3d9e810a0d9-72"
+        },
         "style": {
             "bgColor": null,
             "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664382696/katie-smith-uQs1802D0CQ-unsplash_dwxpri.jpg",
@@ -890,10 +950,18 @@ const gDefaultBoards = [
                 "fullname": "Risan Benichou",
                 "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
             }
-        ]
+        ],
+        "groups": []
     },
     {
         "title": "Daily morning agenda",
+        "isStarred": false,
+        "createdAt": 1664380555416,
+        "createdBy": {
+            "_id": "u102",
+            "fullname": "Nir Shvrchberg",
+            "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03MSPLQ11T-d3d9e810a0d9-72"
+        },
         "style": {
             "bgColor": null,
             "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664692449/kyle-glenn-_AR74EoWdy0-unsplash_rhf2nb.jpg",
@@ -933,10 +1001,18 @@ const gDefaultBoards = [
                 "fullname": "Risan Benichou",
                 "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
             }
-        ]
+        ],
+        "groups": []
     },
     {
         "title": "Team away day",
+        "isStarred": false,
+        "createdAt": 1664380555416,
+        "createdBy": {
+            "_id": "u102",
+            "fullname": "Nir Shvrchberg",
+            "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03MSPLQ11T-d3d9e810a0d9-72"
+        },
         "style": {
             "bgColor": null,
             "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664699079/raphael-biscaldi-7RQf2X6aXXI-unsplash_k6crnk.jpg",
@@ -975,10 +1051,17 @@ const gDefaultBoards = [
                 "fullname": "Risan Benichou",
                 "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
             }
-        ]
+        ],
+        "groups": []
     },
     {
-        "_id": ObjectId("633947c5724fcc98dcdc6d2c"),
+        "isStarred": false,
+        "createdAt": 1664380555416,
+        "createdBy": {
+            "_id": "u102",
+            "fullname": "Nir Shvrchberg",
+            "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03MSPLQ11T-d3d9e810a0d9-72"
+        },
         "title": "Birthday planning checklist",
         "style": {
             "bgColor": null,
@@ -1018,10 +1101,18 @@ const gDefaultBoards = [
                 "fullname": "Risan Benichou",
                 "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
             }
-        ]
+        ],
+        "groups": []
     },
     {
         "title": "Volunteer Program",
+        "isStarred": false,
+        "createdAt": 1664380555416,
+        "createdBy": {
+            "_id": "u103",
+            "fullname": "Risan Benichou",
+            "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
+        },
         "style": {
             "bgColor": null,
             "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664699491/ana-frantz-Pg6YGIJ97lw-unsplash_aj7dr4.jpg",
@@ -1060,11 +1151,18 @@ const gDefaultBoards = [
                 "fullname": "Risan Benichou",
                 "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
             }
-        ]
+        ],
+        "groups": []
     },
     {
-        "_id": ObjectId("63396d93724fcc98dcdc6d2f"),
         "title": "Remote Team Meetings",
+        "isStarred": false,
+        "createdAt": 1664380555416,
+        "createdBy": {
+            "_id": "u103",
+            "fullname": "Risan Benichou",
+            "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
+        },
         "style": {
             "bgColor": null,
             "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664708145/sigmund-eTgMFFzroGc-unsplash_hg0wdj.jpg",
@@ -1103,11 +1201,18 @@ const gDefaultBoards = [
                 "fullname": "Risan Benichou",
                 "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
             }
-        ]
+        ],
+        "groups": []
     },
     {
-        "_id": ObjectId("633a74201d536f6cbba41aae"),
         "title": "Employee onboarding",
+        "isStarred": false,
+        "createdAt": 1664380555416,
+        "createdBy": {
+            "_id": "u103",
+            "fullname": "Risan Benichou",
+            "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
+        },
         "style": {
             "bgColor": null,
             "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664775182/tim-mossholder-GOMhuCj-O9w-unsplash_tq5ffw.jpg",
@@ -1146,11 +1251,18 @@ const gDefaultBoards = [
                 "fullname": "Risan Benichou",
                 "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
             }
-        ]
+        ],
+        "groups": []
     },
     {
-        "_id": ObjectId("633a77ae1d536f6cbba81f75"),
         "title": "Product roadmap",
+        "isStarred": false,
+        "createdAt": 1664380555416,
+        "createdBy": {
+            "_id": "u103",
+            "fullname": "Risan Benichou",
+            "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
+        },
         "style": {
             "bgColor": null,
             "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664776088/michael-cummins-CZ6KeWtaluM-unsplash_turbnt.jpg",
@@ -1189,11 +1301,18 @@ const gDefaultBoards = [
                 "fullname": "Risan Benichou",
                 "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
             }
-        ]
+        ],
+        "groups": []
     },
     {
-        "_id": ObjectId("633a97471d536f6cbbcc5d79"),
         "title": "Customer success",
+        "isStarred": false,
+        "createdAt": 1664380555416,
+        "createdBy": {
+            "_id": "u103",
+            "fullname": "Risan Benichou",
+            "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
+        },
         "style": {
             "bgColor": null,
             "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664784101/sharon-pittaway-iMdsjoiftZo-unsplash_lf1bkq.jpg",
@@ -1232,6 +1351,7 @@ const gDefaultBoards = [
                 "fullname": "Risan Benichou",
                 "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
             }
-        ]
+        ],
+        "groups": []
     }
 ]
