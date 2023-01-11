@@ -1,9 +1,5 @@
-// const fs = require('fs')
 const dbService = require('../../services/db.service')
-const { makeId } = require('../../services/util.service')
-// var gBoard = require('../../data/Board.json')
 const ObjectId = require('mongodb').ObjectId
-const userService = require('../user/user.service')
 
 module.exports = {
     query,
@@ -85,6 +81,7 @@ function _makeId(length = 5) {
     }
     return txt
 }
+
 const labelsData = [
     {
         "id": "l101",
@@ -123,7 +120,8 @@ const gDefaultBoards = [
         "title": "Company Overview",
         "style": {
             "bgColor": null,
-            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664197071/pawel-czerwinski-lKEvGdP0Oig-unsplash_xhxxbf.jpg"
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664197071/pawel-czerwinski-lKEvGdP0Oig-unsplash_xhxxbf.jpg",
+            "thumbUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1673357473/john-price-FE7ATjzRRMs-unsplash-min_fbj9bt.jpg"
         },
         "activities": [
             {
@@ -172,7 +170,8 @@ const gDefaultBoards = [
         },
         "style": {
             "bgColor": null,
-            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664689530/frank-mckenna-OD9EOzfSOh0-unsplash_eyotjy.jpg"
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664689530/frank-mckenna-OD9EOzfSOh0-unsplash_eyotjy.jpg",
+            "thumbUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1673353048/karsten-winegeart-j5z0DZMWViU-unsplash-min_o3rne4.jpg"
         },
         "labels": labelsData,
         "members": [
@@ -600,7 +599,8 @@ const gDefaultBoards = [
         "title": "Business plan",
         "style": {
             "bgColor": null,
-            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664196414/ian-dooley-DJ7bWa-Gwks-unsplash_hr2qyq.jpg"
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664196414/ian-dooley-DJ7bWa-Gwks-unsplash_hr2qyq.jpg",
+            "thumbUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1673357083/ian-dooley-DJ7bWa-Gwks-unsplash-min_lnhojz.jpg"
         },
         "activities": [
             {
@@ -641,7 +641,8 @@ const gDefaultBoards = [
         "title": "Design sprint",
         "style": {
             "bgColor": null,
-            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664187022/maxim-berg-Tba7ds4aF_k-unsplash_1_woirqi.jpg"
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664187022/maxim-berg-Tba7ds4aF_k-unsplash_1_woirqi.jpg",
+            "thumbUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1673356761/maxim-berg-Tba7ds4aF_k-unsplash-min_vzzpcs.jpg"
         },
         "activities": [
             {
@@ -683,7 +684,8 @@ const gDefaultBoards = [
         "isStarred": true,
         "style": {
             "bgColor": null,
-            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664196200/alexander-sinn-KgLtFCgfC28-unsplash_viu9fl.jpg"
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664704915/kelly-sikkema-IZOAOjvwhaM-unsplash_m2ivzg.jpg",
+            "thumbUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1673356955/kelly-sikkema-IZOAOjvwhaM-unsplash-min_wyhrch.jpg"
         },
         "activities": [
             {
@@ -724,7 +726,8 @@ const gDefaultBoards = [
         "title": "My next vacation",
         "style": {
             "bgColor": null,
-            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664186705/rrvviiii-EVEHo6gWzSM-unsplash_jqec7i.jpg"
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664186705/rrvviiii-EVEHo6gWzSM-unsplash_jqec7i.jpg",
+            "thumbUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1673358107/rrvviiii-EVEHo6gWzSM-unsplash-min_hsyg7m.jpg"
         },
         "activities": [
             {
@@ -766,7 +769,8 @@ const gDefaultBoards = [
         "title": "New Baby todos",
         "style": {
             "bgColor": null,
-            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664197377/ash-from-modern-afflatus-NQ6Lh81BTRs-unsplash_qoe8no.jpg"
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664197377/ash-from-modern-afflatus-NQ6Lh81BTRs-unsplash_qoe8no.jpg",
+            "thumbUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1673355189/ash-from-modern-afflatus-NQ6Lh81BTRs-unsplash-min_ncx2rj.jpg"
         },
         "activities": [
             {
@@ -808,7 +812,8 @@ const gDefaultBoards = [
         "title": "Marketing overview",
         "style": {
             "bgColor": null,
-            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664196528/jeremy-thomas-O6N9RV2rzX8-unsplash_ndcnyj.jpg"
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664196528/jeremy-thomas-O6N9RV2rzX8-unsplash_ndcnyj.jpg",
+            "thumbUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1673356416/jeremy-thomas-O6N9RV2rzX8-unsplash-min_wnrfhl.jpg"
         },
         "activities": [
             {
@@ -849,7 +854,8 @@ const gDefaultBoards = [
         "title": "Meal planning",
         "style": {
             "bgColor": null,
-            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664382696/katie-smith-uQs1802D0CQ-unsplash_dwxpri.jpg"
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664382696/katie-smith-uQs1802D0CQ-unsplash_dwxpri.jpg",
+            "thumbUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1673358315/katie-smith-uQs1802D0CQ-unsplash-min_eorucd.jpg"
         },
         "activities": [
             {
@@ -890,7 +896,9 @@ const gDefaultBoards = [
         "title": "Daily morning agenda",
         "style": {
             "bgColor": null,
-            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664692449/kyle-glenn-_AR74EoWdy0-unsplash_rhf2nb.jpg"
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664692449/kyle-glenn-_AR74EoWdy0-unsplash_rhf2nb.jpg",
+            "thumbUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1673358500/kyle-glenn-_AR74EoWdy0-unsplash-min_zkygrg.jpg"
+
         },
         "activities": [
             {
@@ -931,7 +939,8 @@ const gDefaultBoards = [
         "title": "Team away day",
         "style": {
             "bgColor": null,
-            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664699079/raphael-biscaldi-7RQf2X6aXXI-unsplash_k6crnk.jpg"
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664699079/raphael-biscaldi-7RQf2X6aXXI-unsplash_k6crnk.jpg",
+            "thumbUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1673358645/raphael-biscaldi-7RQf2X6aXXI-unsplash-min_v67zh8.jpg"
         },
         "activities": [
             {
@@ -973,7 +982,8 @@ const gDefaultBoards = [
         "title": "Birthday planning checklist",
         "style": {
             "bgColor": null,
-            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664698270/amy-shamblen-pJ_DCj9KswI-unsplash_dpiduu.jpg"
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664698270/amy-shamblen-pJ_DCj9KswI-unsplash_dpiduu.jpg",
+            "thumbUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1673358755/amy-shamblen-pJ_DCj9KswI-unsplash-min_bxgvk7.jpg"
         },
         "activities": [
             {
@@ -1014,7 +1024,8 @@ const gDefaultBoards = [
         "title": "Volunteer Program",
         "style": {
             "bgColor": null,
-            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664699491/ana-frantz-Pg6YGIJ97lw-unsplash_aj7dr4.jpg"
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664699491/ana-frantz-Pg6YGIJ97lw-unsplash_aj7dr4.jpg",
+            "thumbUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1673356285/ana-frantz-Pg6YGIJ97lw-unsplash-min_rupmh3.jpg"
         },
         "activities": [
             {
@@ -1056,7 +1067,8 @@ const gDefaultBoards = [
         "title": "Remote Team Meetings",
         "style": {
             "bgColor": null,
-            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664708145/sigmund-eTgMFFzroGc-unsplash_hg0wdj.jpg"
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664708145/sigmund-eTgMFFzroGc-unsplash_hg0wdj.jpg",
+            "thumbUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1673358937/sigmund-eTgMFFzroGc-unsplash-min_rdpz4b.jpg"
         },
         "activities": [
             {
@@ -1067,6 +1079,135 @@ const gDefaultBoards = [
                 },
                 "id": "BppqhR",
                 "createdAt": 1664707987328.0,
+                "byMember": {
+                    "_id": "u199",
+                    "fullname": "Guest",
+                    "imgUrl": "https://trello-members.s3.amazonaws.com/63197a231392a3015ea3b649/1af72162e2d7c08fd66a6b36476c1515/170.png"
+                }
+            }
+        ],
+        "labels": labelsData,
+        "members": [
+            {
+                "_id": "u101",
+                "fullname": "Maor Layani",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"
+            },
+            {
+                "_id": "u102",
+                "fullname": "Nir Shvrchberg",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03MSPLQ11T-d3d9e810a0d9-72"
+            },
+            {
+                "_id": "u103",
+                "fullname": "Risan Benichou",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
+            }
+        ]
+    },
+    {
+        "_id": ObjectId("633a74201d536f6cbba41aae"),
+        "title": "Employee onboarding",
+        "style": {
+            "bgColor": null,
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664775182/tim-mossholder-GOMhuCj-O9w-unsplash_tq5ffw.jpg",
+            "thumbUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1673367958/tim-mossholder-GOMhuCj-O9w-unsplash-min_xxr37z.jpg"
+        },
+        "activities": [
+            {
+                "txt": "created this board",
+                "task": {
+                    "task": "",
+                    "title": ""
+                },
+                "id": "BppqhR",
+                "createdAt": 1664707987328.0,
+                "byMember": {
+                    "_id": "u199",
+                    "fullname": "Guest",
+                    "imgUrl": "https://trello-members.s3.amazonaws.com/63197a231392a3015ea3b649/1af72162e2d7c08fd66a6b36476c1515/170.png"
+                }
+            }
+        ],
+        "labels": labelsData,
+        "members": [
+            {
+                "_id": "u101",
+                "fullname": "Maor Layani",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"
+            },
+            {
+                "_id": "u102",
+                "fullname": "Nir Shvrchberg",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03MSPLQ11T-d3d9e810a0d9-72"
+            },
+            {
+                "_id": "u103",
+                "fullname": "Risan Benichou",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
+            }
+        ]
+    },
+    {
+        "_id": ObjectId("633a77ae1d536f6cbba81f75"),
+        "title": "Product roadmap",
+        "style": {
+            "bgColor": null,
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664776088/michael-cummins-CZ6KeWtaluM-unsplash_turbnt.jpg",
+            "thumbUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1673368538/michael-cummins-CZ6KeWtaluM-unsplash-min_t6prlt.jpg"
+        },
+        "activities": [
+            {
+                "txt": "created this board",
+                "task": {
+                    "task": "",
+                    "title": ""
+                },
+                "id": "BppqhR",
+                "createdAt": 1624707087328.0,
+                "byMember": {
+                    "_id": "u199",
+                    "fullname": "Guest",
+                    "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664776088/michael-cummins-CZ6KeWtaluM-unsplash_turbnt.jpg"
+                }
+            }
+        ],
+        "labels": labelsData,
+        "members": [
+            {
+                "_id": "u101",
+                "fullname": "Maor Layani",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03GZSLVC3Z-0637bd0f161c-512"
+            },
+            {
+                "_id": "u102",
+                "fullname": "Nir Shvrchberg",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03MSPLQ11T-d3d9e810a0d9-72"
+            },
+            {
+                "_id": "u103",
+                "fullname": "Risan Benichou",
+                "imgUrl": "https://ca.slack-edge.com/T03E3RZ2KHV-U03KXR3PJD9-80fc7c6ab3fb-512"
+            }
+        ]
+    },
+    {
+        "_id": ObjectId("633a97471d536f6cbbcc5d79"),
+        "title": "Customer success",
+        "style": {
+            "bgColor": null,
+            "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1664784101/sharon-pittaway-iMdsjoiftZo-unsplash_lf1bkq.jpg",
+            "thumbUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1673368278/sharon-pittaway-iMdsjoiftZo-unsplash-min_m4zbg5.jpg"
+        },
+        "activities": [
+            {
+                "txt": "created this board",
+                "task": {
+                    "task": "",
+                    "title": ""
+                },
+                "id": "BppqhR",
+                "createdAt": 1664707087328.0,
                 "byMember": {
                     "_id": "u199",
                     "fullname": "Guest",
