@@ -980,7 +980,7 @@ const gDefaultBoards = [
                 "byMember": {
                     "_id": "u199",
                     "fullname": "Guest",
-                    "imgUrl": "https://trello-members.s3.amazonaws.com/63197a231392a3015ea3b649/1af72162e2d7c08fd66a6b36476c1515/170.png"
+                    "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1670317536/170_t4mend.png"
                 }
             }
         ],
@@ -1030,7 +1030,7 @@ const gDefaultBoards = [
                 "byMember": {
                     "_id": "u199",
                     "fullname": "Guest",
-                    "imgUrl": "https://trello-members.s3.amazonaws.com/63197a231392a3015ea3b649/1af72162e2d7c08fd66a6b36476c1515/170.png"
+                    "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1670317536/170_t4mend.png"
                 }
             }
         ],
@@ -1080,7 +1080,7 @@ const gDefaultBoards = [
                 "byMember": {
                     "_id": "u199",
                     "fullname": "Guest",
-                    "imgUrl": "https://trello-members.s3.amazonaws.com/63197a231392a3015ea3b649/1af72162e2d7c08fd66a6b36476c1515/170.png"
+                    "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1670317536/170_t4mend.png"
                 }
             }
         ],
@@ -1130,7 +1130,7 @@ const gDefaultBoards = [
                 "byMember": {
                     "_id": "u199",
                     "fullname": "Guest",
-                    "imgUrl": "https://trello-members.s3.amazonaws.com/63197a231392a3015ea3b649/1af72162e2d7c08fd66a6b36476c1515/170.png"
+                    "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1670317536/170_t4mend.png"
                 }
             }
         ],
@@ -1180,7 +1180,7 @@ const gDefaultBoards = [
                 "byMember": {
                     "_id": "u199",
                     "fullname": "Guest",
-                    "imgUrl": "https://trello-members.s3.amazonaws.com/63197a231392a3015ea3b649/1af72162e2d7c08fd66a6b36476c1515/170.png"
+                    "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1670317536/170_t4mend.png"
                 }
             }
         ],
@@ -1230,7 +1230,7 @@ const gDefaultBoards = [
                 "byMember": {
                     "_id": "u199",
                     "fullname": "Guest",
-                    "imgUrl": "https://trello-members.s3.amazonaws.com/63197a231392a3015ea3b649/1af72162e2d7c08fd66a6b36476c1515/170.png"
+                    "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1670317536/170_t4mend.png"
                 }
             }
         ],
@@ -1330,7 +1330,7 @@ const gDefaultBoards = [
                 "byMember": {
                     "_id": "u199",
                     "fullname": "Guest",
-                    "imgUrl": "https://trello-members.s3.amazonaws.com/63197a231392a3015ea3b649/1af72162e2d7c08fd66a6b36476c1515/170.png"
+                    "imgUrl": "https://res.cloudinary.com/dqhrqqqul/image/upload/v1670317536/170_t4mend.png"
                 }
             }
         ],

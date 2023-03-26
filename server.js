@@ -9,8 +9,6 @@ const http = require('http').createServer(app)
 app.use(cookieParser())
 app.use(express.json())
 app.use(express.static('public'))
-// const {Server}=require('socket.io')
-
 
 if (process.env.NODE_ENV === 'production') {
     // Express serve static files on production environment
@@ -49,5 +47,3 @@ http.listen(port, () => {
     // logger.info('Server is running on port: ' + port)
     console.log('Server is running on port: ' + port)
 })
-
-// app.listen(3030, () => console.log('Server ready at port 3030!'))
